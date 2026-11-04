@@ -1,0 +1,61 @@
+#EXTM3U
+
+# Новости
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2271.png" group-title="Новости",Известия HD
+http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/743.png" group-title="Новости",РБК ТВ
+http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2078.png" group-title="Новости",Мир 24
+https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/tracks-v1a1/mono.m3u8
+
+# Федеральные
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/146.png" group-title="Федеральные",Первый канал
+https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/711.png" group-title="Федеральные",Россия 1
+https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Федеральные",НТВ
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png" group-title="Федеральные",РЕН ТВ
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1000.png" group-title="Федеральные",ОТР
+https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/726.png" group-title="Федеральные",Мир
+https://s91412.cdn.ngenix.net/mdrm/CH_MIR/variant.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/649.png" group-title="Федеральные",ТВ Центр
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/405.png" group-title="Федеральные",Звезда HD
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+
+# Кино и развлечения
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1598.png" group-title="Развлечения",Че
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
+#EXTINF:-1 group-title="Развлечения",СТС Love
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
+#EXTINF:-1 group-title="Развлечения",Ю
+https://s91412.cdn.ngenix.net/mdrm/CH_U/variant.m3u8
+
+# Музыка
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/897.png" group-title="Музыка",Муз ТВ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/icn/shanson-tv.png" group-title="Музыка",Шансон ТВ
+http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
+
+# Фильмы и сериалы
+#EXTINF:-1 group-title="Фильмы и сериалы",🎬 Канал-заглушка (скоро здесь будут фильмы и сериалы)
+http://127.0.0.1/placeholder.m3u8
+
+# Детские
+#EXTINF:-1 tvg-id="ani.ru" tvg-logo="https://iptvx.one/picons/ani.png" group-title="Детские",Ani
+http://46.32.176.50/anitv/index.m3u8
+
+# Религиозные
+#EXTINF:-1 group-title="Религиозные",🕌 Религиозный канал-заглушка (Скоро здесь будут религиозные каналы)
+http://127.0.0.1/placeholder.m3u8
+
+# Познавательные
+#EXTINF:-1 group-title="Познавательные",📚 Познавательный канал-заглушка (Скоро здесь будут познавательные каналы)
+http://127.0.0.1/placeholder.m3u8
+
+# Спорт
+#EXTINF:-1 group-title="Спорт",🏆 Спортивный канал-заглушка (Скоро здесь будут спортивные каналы)
+http://127.0.0.1/placeholder.m3u8
