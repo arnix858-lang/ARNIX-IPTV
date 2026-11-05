@@ -1,6 +1,11 @@
 name: Update Viks IPTV playlist
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-viks.yml'
+      - 'viks_parser.py'
   workflow_dispatch:
   schedule:
     - cron: "17 */6 * * *"
