@@ -13,6 +13,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from playwright.sync_api import sync_playwright
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from datetime import datetime, timezone
@@ -89,6 +90,56 @@ def find_streams(source, page_url):
 
 def clean_name(value):
     return re.sub(r"\s+", " ", html.unescape(value or "")).strip(" \t\r\n-")
+
+def capture_dynamic_streams(channel_urls):
+    """
+    Open channel pages in Chromium and record publicly requested HLS/DASH manifests.
+    This observes normal page loading; it does not bypass login, DRM, or access controls.
+    """
+    result = {}
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            context = browser.new_context(
+                user_agent=UA,
+                viewport={"width": 1280, "height": 720},
+                ignore_https_errors=False,
+            )
+            page = context.new_page()
+            for index, url in enumerate(channel_urls, 1):
+                found = []
+
+                def remember(request):
+                    target = request.url
+                    if re.search(r"\\.(?:m3u8|mpd)(?:\\?|$)", target, re.I):
+                        if target not in found:
+                            found.append(target)
+
+                page.on("request", remember)
+                try:
+                    page.goto(url, wait_until="domcontentloaded", timeout=15000)
+                    page.wait_for_timeout(2500)
+                    # A normal play attempt may be needed before the player requests its manifest.
+                    try:
+                        page.locator("video").first.evaluate(
+                            "(v) => { v.muted = true; return v.play().catch(() => null); }",
+                            timeout=1500,
+                        )
+                        page.wait_for_timeout(2000)
+                    except Exception:
+                        pass
+                except Exception as exc:
+                    print(f"Browser capture [{index}/{len(channel_urls)}]: {exc}", file=sys.stderr)
+                finally:
+                    page.remove_listener("request", remember)
+                if found:
+                    result[url] = found
+                    print(f"Browser capture [{index}/{len(channel_urls)}]: {len(found)} manifest(s)")
+            context.close()
+            browser.close()
+    except Exception as exc:
+        print("Playwright capture unavailable:", exc, file=sys.stderr)
+    return result
 
 def discover_channels():
     body, final_url = get(CATALOG)
@@ -195,6 +246,7 @@ def main():
     print("Получаю список каналов:", CATALOG)
     channels = discover_channels()
     print("Найдено страниц каналов:", len(channels))
+    dynamic_by_page = capture_dynamic_streams([channel["page"] for channel in channels])
     entries, seen_streams = [], set()
     for index, channel in enumerate(channels, 1):
         try:
@@ -217,6 +269,7 @@ def main():
                 streams.extend(find_streams(candidate, final_url))
                 if re.search(r"\.(m3u8|mpd)(?:\?|$)", candidate, re.I):
                     streams.append(absolute(candidate, final_url))
+            streams.extend(dynamic_by_page.get(channel["page"], []))
             streams = list(dict.fromkeys(s for s in streams if s.startswith(("http://", "https://"))))
             if streams:
                 for number, stream in enumerate(streams, 1):
