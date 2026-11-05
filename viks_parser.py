@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Viks.tv -> IPTV M3U parser.
+Smotru.tv -> IPTV M3U parser.
 Extracts only direct, publicly exposed HLS/DASH URLs from channel pages.
 It does not bypass logins, DRM, paywalls, tokens, or access controls.
 """
@@ -18,14 +18,14 @@ import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from datetime import datetime, timezone
 
-BASE = "https://live.viks.tv"
-CATALOG = BASE + "/tv3/"
-GUIDE = BASE + "/chto-seychas-na-tv.html"
-OUT_M3U = os.getenv("VIKS_M3U", "viks.m3u")
-OUT_EPG = os.getenv("VIKS_EPG", "viks_epg.xml")
-MAX_CHANNELS = int(os.getenv("VIKS_MAX_CHANNELS", "180"))
-DELAY = float(os.getenv("VIKS_DELAY", "0.35"))
-UA = "Mozilla/5.0 (compatible; ARNIX-IPTV-ViksParser/1.0)"
+BASE = "https://smotru.tv"
+CATALOG = BASE + "/"
+GUIDE = BASE + "/smotrite-na-etoj-nedele.html"
+OUT_M3U = os.getenv("SMOTRU_M3U", "smotru.m3u")
+OUT_EPG = os.getenv("SMOTRU_EPG", "smotru_epg.xml")
+MAX_CHANNELS = int(os.getenv("SMOTRU_MAX_CHANNELS", "180"))
+DELAY = float(os.getenv("SMOTRU_DELAY", "0.35"))
+UA = "Mozilla/5.0 (compatible; ARNIX-IPTV-SmotruParser/1.0)"
 
 def get(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html,application/json,*/*"})
@@ -46,6 +46,8 @@ class PageParser(HTMLParser):
         if tag == "a" and a.get("href"):
             self._anchor = (a["href"], a.get("title", ""))
             self._anchor_text = []
+        if tag == "img" and self._anchor is not None and a.get("alt"):
+            self._anchor_text.append(a["alt"])
         if tag in ("iframe", "source", "video") or any(k in a for k in ("data-src", "data-file", "data-hls", "data-url")):
             for key in ("src", "data-src", "data-file", "data-hls", "data-url", "href"):
                 if a.get(key):
@@ -149,7 +151,7 @@ def discover_channels():
     for href, title in parser.links:
         url = absolute(href, final_url)
         parsed = urllib.parse.urlparse(url)
-        if parsed.netloc not in ("live.viks.tv", "www.live.viks.tv"):
+        if parsed.netloc not in ("smotru.tv", "www.smotru.tv"):
             continue
         if not parsed.path.lower().endswith(".html") or parsed.path.rstrip("/") == "/tv3":
             continue
@@ -183,7 +185,7 @@ def category(name):
 
 def parse_schedule():
     # The guide is parsed only when the page actually contains programme data.
-    # Viks may show "Программа для этого телеканала отсутствует"; such entries are skipped.
+    # Smotru schedule is parsed only when it exposes JSON-LD BroadcastEvent data.
     try:
         body, _ = get(GUIDE)
     except Exception as exc:
@@ -219,11 +221,11 @@ def write_epg(programs):
             os.remove(OUT_EPG)
         print("EPG: сайт не предоставил распознаваемую телепрограмму; XMLTV не создан.")
         return False
-    tv = ET.Element("tv", {"generator-info-name": "ARNIX IPTV Viks parser"})
+    tv = ET.Element("tv", {"generator-info-name": "ARNIX IPTV Smotru parser"})
     channel_ids = {}
     for channel, _, _, _ in programs:
         if channel:
-            channel_ids.setdefault(channel, re.sub(r"[^a-z0-9]+", ".", channel.lower()).strip(".") + ".viks")
+            channel_ids.setdefault(channel, re.sub(r"[^a-z0-9]+", ".", channel.lower()).strip(".") + ".smotru")
     for name, cid in channel_ids.items():
         ch = ET.SubElement(tv, "channel", {"id": cid})
         ET.SubElement(ch, "display-name").text = name
@@ -243,7 +245,7 @@ def write_epg(programs):
     return True
 
 def main():
-    print("Получаю список каналов:", CATALOG)
+    print("Получаю список каналов Smotru.tv:", CATALOG)
     channels = discover_channels()
     print("Найдено страниц каналов:", len(channels))
     dynamic_by_page = capture_dynamic_streams([channel["page"] for channel in channels])
@@ -258,7 +260,7 @@ def main():
             candidates.extend(find_streams(body, final_url))
             for candidate in list(candidates):
                 candidate_url = absolute(candidate, final_url)
-                if urllib.parse.urlparse(candidate_url).netloc in ("live.viks.tv", "www.live.viks.tv"):
+                if urllib.parse.urlparse(candidate_url).netloc in ("smotru.tv", "www.smotru.tv"):
                     try:
                         embedded, embedded_url = get(candidate_url)
                         candidates.extend(find_streams(embedded, embedded_url))
@@ -286,7 +288,7 @@ def main():
         time.sleep(DELAY)
 
     if not entries:
-        print("Не найдено прямых публичных HLS/DASH ссылок. Старый плейлист не перезаписываю.", file=sys.stderr)
+        print("Smotru.tv не предоставил прямых публичных HLS/DASH ссылок. Старый плейлист не перезаписываю.", file=sys.stderr)
         return 2
 
     lines = ["#EXTM3U"]
@@ -298,7 +300,7 @@ def main():
         file.write("\n".join(lines) + "\n")
 
     epg_ok = write_epg(parse_schedule())
-    print(f"Готово: {len(entries)} потоков -> {OUT_M3U}")
+    print(f"Готово: {len(entries)} потоков Smotru.tv -> {OUT_M3U}")
     if epg_ok:
         print(f"EPG сохранён -> {OUT_EPG}")
     return 0
