@@ -111,7 +111,7 @@ def capture_dynamic_streams(channel_urls):
 
                 def remember(request):
                     target = request.url
-                    if re.search(r"\\.(?:m3u8|mpd)(?:\\?|$)", target, re.I):
+                    if re.search(r"\.(?:m3u8|mpd)(?:\?|$)", target, re.I):
                         if target not in found:
                             found.append(target)
 
