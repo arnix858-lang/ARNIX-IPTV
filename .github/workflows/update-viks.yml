@@ -28,6 +28,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install Playwright browser
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          python -m playwright install --with-deps chromium
       - name: Parse Viks.tv
         run: python viks_parser.py
       - name: Commit generated playlist
