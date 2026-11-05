@@ -1,12 +1,4 @@
 #EXTM3U
 
-# Категории ARNIX IPTV
-# Федеральный
-# Новости
-# Развлекательные
-# Детские
-# Спорт
-# Познавательные
-# Кино и сериалы
-# Музыка
-# Религиозные
+#EXTINF:-1 tvg-id="perviy-kanal" tvg-name="Первый канал" group-title="Федеральный",Первый канал
+https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
