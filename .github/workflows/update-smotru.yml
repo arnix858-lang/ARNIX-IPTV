@@ -1,0 +1,53 @@
+name: Update Smotru IPTV playlist
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-smotru.yml'
+      - 'smotru_parser.py'
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-smotru-playlist
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Playwright browser
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Parse Smotru.tv
+        run: python smotru_parser.py
+      - name: Commit generated playlist
+        run: |
+          if [ -f smotru.m3u ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add smotru.m3u
+            if [ -f smotru_epg.xml ]; then
+              git add smotru_epg.xml
+            else
+              git rm --ignore-unmatch smotru_epg.xml
+            fi
+            git diff --cached --quiet || git commit -m "Update Smotru IPTV playlist"
+            git push
+          else
+            echo "smotru.m3u was not generated; keeping previous files."
+          fi
