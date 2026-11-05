@@ -30,7 +30,12 @@ jobs:
           if [ -f viks.m3u ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add viks.m3u viks_epg.xml
+            git add viks.m3u
+            if [ -f viks_epg.xml ]; then
+              git add viks_epg.xml
+            else
+              git rm --ignore-unmatch viks_epg.xml
+            fi
             git diff --cached --quiet || git commit -m "Update Viks IPTV playlist"
             git push
           else
