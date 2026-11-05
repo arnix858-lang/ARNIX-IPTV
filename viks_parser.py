@@ -37,28 +37,34 @@ class PageParser(HTMLParser):
         self.links = []
         self.media = []
         self.text = []
-        self._capture_text = False
+        self._anchor = None
+        self._anchor_text = []
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if tag == "a" and a.get("href"):
-            self.links.append((a["href"], a.get("title", "")))
+            self._anchor = (a["href"], a.get("title", ""))
+            self._anchor_text = []
         if tag in ("iframe", "source", "video") or any(k in a for k in ("data-src", "data-file", "data-hls", "data-url")):
             for key in ("src", "data-src", "data-file", "data-hls", "data-url", "href"):
                 if a.get(key):
                     self.media.append(a[key])
         if tag == "meta" and a.get("content"):
             self.media.append(a["content"])
-        if tag in ("title", "h1", "h2", "h3"):
-            self._capture_text = True
 
     def handle_endtag(self, tag):
-        if tag in ("title", "h1", "h2", "h3"):
-            self._capture_text = False
+        if tag == "a" and self._anchor:
+            href, title = self._anchor
+            label = clean_name(" ".join(self._anchor_text)) or title
+            self.links.append((href, label))
+            self._anchor = None
+            self._anchor_text = []
 
     def handle_data(self, data):
         if data.strip():
             self.text.append(data.strip())
+            if self._anchor is not None:
+                self._anchor_text.append(data.strip())
 
 def absolute(url, base):
     url = html.unescape(url).replace("\\/", "/").replace("\\u0026", "&")
