@@ -10,4 +10,4 @@ https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="5kanal-ru" tvg-name="Пятый канал" group-title="Федеральный",Пятый канал
-https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
+http://iptv.ktkru.ru:8005/index.m3u8
