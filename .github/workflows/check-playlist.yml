@@ -1,0 +1,37 @@
+name: Check IPTV playlist
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: playlist-auto-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Check playlist links
+        run: python scripts/check_playlist.py
+      - name: Commit playlist changes
+        run: |
+          if git diff --quiet -- playlist.m3u; then
+            echo "Playlist is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u
+          git commit -m "Automatically remove confirmed dead IPTV links"
+          git push
