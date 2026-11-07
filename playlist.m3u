@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="http://pskovline.tv/epg/jtv.zip" m3uautoload=1 cache=500 deinterlace=8 aspect-ratio=none tvg-shift=0
 #EXTINF:-1 tvg-name="1TV" deinterlace=6 group-title="Информационный" ,Первый канал
-udp://@239.1.35.5:1234
+https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="RTR_REG" deinterlace=6 group-title="Информационный" ,Россия 1
 udp://@239.1.35.35:1234
 #EXTINF:-1 tvg-name="NTV" group-title="Информационный" ,НТВ
