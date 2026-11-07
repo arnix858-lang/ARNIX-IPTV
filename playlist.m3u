@@ -15,17 +15,17 @@ udp://@235.60.101.18:2015
 udp://@235.60.101.19:2015
 #EXTINF:-1 tvg-id="mir" tvg-logo="https://epg.iptvx.one/picons/mir.png" tvg-name="MIR" group-title="Информационный" ,Мир
 udp://@235.60.101.27:2015
-#EXTINF:-1 tvg-name="1Pskov" deinterlace=6 group-title="Информационный" ,Первый Псковский
+#EXTINF:-1 tvg-id="pervy-pskovsky" tvg-logo="https://iptvx.one/picons/pervy-pskovsky.png" tvg-name="1Pskov" deinterlace=6 group-title="Информационный" ,Первый Псковский
 udp://@235.60.9.1:2015
 #EXTINF:-1 tvg-id="izvestia" tvg-logo="https://iptvx.one/picons/izvestia.png" tvg-name="Izvestiy" group-title="Информационный" ,Известия
 udp://@239.1.34.150:1234
-#EXTINF:-1 tvg-name="8_KANAL" group-title="Информационный" ,8 канал
+#EXTINF:-1 tvg-id="8kanal-ru" tvg-logo="https://iptvx.one/picons/8kanal-ru.png" tvg-name="8_KANAL" group-title="Информационный" ,8 канал
 udp://@239.1.35.140:1234
 #EXTINF:-1 tvg-name="Rus_Today" group-title="Информационный" ,Russia Today
 udp://@239.1.23.135:1234
 #EXTINF:-1 tvg-id="otkryty-mir" tvg-logo="https://iptvx.one/picons/otkryty-mir.png" tvg-name="Openworld" group-title="Информационный" ,Открытый мир
 udp://@239.1.35.154:1234
-#EXTINF:-1 tvg-name="Mir24" deinterlace=6 group-title="Информационный" ,МИР24
+#EXTINF:-1 tvg-id="mir-24" tvg-logo="https://iptvx.one/picons/mir-24.png" tvg-name="Mir24" deinterlace=6 group-title="Информационный" ,МИР24
 udp://@239.1.6.180:1234
 #EXTINF:-1 tvg-name="RT_DocHD" deinterlace=6 group-title="Информационный" ,Russia Today DOC HD
 udp://@239.1.23.136:1234
@@ -69,7 +69,7 @@ udp://@239.1.23.242:1234
 udp://@239.1.23.213:1234
 #EXTINF:-1 tvg-id="avto-plus" tvg-logo="https://iptvx.one/picons/avto-plus.png" tvg-name="autoplus" deinterlace=6 group-title="Развлечения" ,Авто Плюс
 udp://@239.1.23.211:1234
-#EXTINF:-1 tvg-name="sarafan-tv" group-title="Развлечения" ,Сарафан ТВ
+#EXTINF:-1 tvg-id="sarafan" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-name="sarafan-tv" group-title="Развлечения" ,Сарафан ТВ
 udp://@239.1.6.164:1234
 #EXTINF:-1 tvg-id="sts-love" tvg-logo="https://iptvx.one/picons/sts-love.png" tvg-name="STSLove" group-title="Развлечения" ,СТС Love
 udp://@224.200.202.225:1234
@@ -93,7 +93,7 @@ udp://@239.1.3.168:1234
 udp://@224.200.202.220:1234
 #EXTINF:-1 tvg-id="zagorodny" tvg-logo="https://iptvx.one/picons/zagorodny.png" tvg-name="zagorodny" group-title="Развлечения" ,Загородный
 udp://@239.1.41.160:1234
-#EXTINF:-1 tvg-name="WM" group-title="Развлечения" ,Женский Журнал
+#EXTINF:-1 tvg-id="womens-magazine" tvg-logo="https://iptvx.one/picons/womens-magazine.png" tvg-name="WM" group-title="Развлечения" ,Женский Журнал
 udp://@239.1.41.148:1234
 #EXTINF:-1 tvg-id="zhara" tvg-logo="https://iptvx.one/picons/zhara.png" tvg-name="Bulvar" group-title="Развлечения" ,Жара
 udp://@239.1.35.153:1234
@@ -107,9 +107,9 @@ udp://@239.1.6.183:1234
 udp://@239.1.34.145:1234
 #EXTINF:-1 tvg-id="bobior" tvg-logo="https://iptvx.one/picons/bobior.png" tvg-name="Bober" group-title="Развлечения" ,Бобёр
 udp://@239.1.3.160:1234
-#EXTINF:-1 tvg-name="ToshkaTV" group-title="Развлечения" ,Точка ТВ
+#EXTINF:-1 tvg-id="tochka-tv" tvg-logo="https://iptvx.one/picons/tochka-tv.png" tvg-name="ToshkaTV" group-title="Развлечения" ,Точка ТВ
 udp://@239.1.6.184:1234
-#EXTINF:-1 tvg-name="fan" group-title="Развлечения" ,FAN
+#EXTINF:-1 tvg-id="fanhd" tvg-logo="https://iptvx.one/picons/fanhd.png" tvg-name="fan" group-title="Развлечения" ,FAN
 udp://@239.1.6.134:1234
 #EXTINF:-1 tvg-id="kvn-tv" tvg-logo="https://iptvx.one/picons/kvn-tv.png" tvg-name="KVNTV" group-title="Развлечения" ,КВН ТВ
 udp://@239.1.23.227:1234
@@ -129,21 +129,21 @@ udp://@239.1.35.149:1234
 udp://@239.1.35.143:1234
 #EXTINF:-1 tvg-name="Mother&Chi" group-title="Детское" ,Мама
 udp://@239.1.1.199:1234
-#EXTINF:-1 tvg-name="O" group-title="Детское" ,О!
+#EXTINF:-1 tvg-id="o_" tvg-logo="https://iptvx.one/picons/o_.png" tvg-name="O" group-title="Детское" ,О!
 udp://@239.1.3.163:1234
 #EXTINF:-1 tvg-id="multimuzyka" tvg-logo="https://iptvx.one/picons/multimuzyka.png" tvg-name="Multmuzika" group-title="Детское" ,Мультимузыка
 udp://@239.1.6.163:1234
-#EXTINF:-1 tvg-name="Ani" group-title="Детское" ,Ani
+#EXTINF:-1 tvg-id="ani" tvg-logo="https://iptvx.one/picons/ani.png" tvg-name="Ani" group-title="Детское" ,Ani
 udp://@239.1.1.197:1234
-#EXTINF:-1 tvg-name="TiJi" group-title="Детское" ,TIJI
+#EXTINF:-1 tvg-id="tiji" tvg-logo="https://iptvx.one/picons/tiji.png" tvg-name="TiJi" group-title="Детское" ,TIJI
 udp://@239.1.35.134:1234
-#EXTINF:-1 tvg-name="Detskiy" group-title="Детское" ,Уник-ум
+#EXTINF:-1 tvg-id="detsky" tvg-logo="https://iptvx.one/picons/detsky.png" tvg-name="Detskiy" group-title="Детское" ,Уник-ум
 udp://@239.1.23.239:1234
 #EXTINF:-1 tvg-id="mult" tvg-logo="https://iptvx.one/picons/mult.png" tvg-name="Mult" group-title="Детское" ,Мульт
 udp://@239.1.1.195:1234
-#EXTINF:-1 tvg-name="Gulli" group-title="Детское" ,Gulli Girl
+#EXTINF:-1 tvg-id="gulli-girl" tvg-logo="https://iptvx.one/picons/gulli-girl.png" tvg-name="Gulli" group-title="Детское" ,Gulli Girl
 udp://@239.1.35.135:1234
-#EXTINF:-1 tvg-name="SuperHero" group-title="Детское" ,СуперГерои
+#EXTINF:-1 tvg-id="malysh" tvg-logo="https://iptvx.one/picons/malysh.png" tvg-name="SuperHero" group-title="Детское" ,СуперГерои
 udp://@239.1.23.246:1234
 #EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://epg.iptvx.one/picons/tv3-ru.png" tvg-name="TV3_REG" group-title="Кино" ,ТВ3
 udp://@235.60.101.24:2015
@@ -159,11 +159,11 @@ udp://@239.1.3.146:1234
 udp://@239.1.1.198:1234
 #EXTINF:-1 tvg-name="sovetclass" deinterlace=6 group-title="Кино" ,Советская киноклассика
 udp://@239.1.35.145:1234
-#EXTINF:-1 tvg-name="India" group-title="Кино" ,Индийское кино
+#EXTINF:-1 tvg-id="indiyskoe-kino" tvg-logo="https://iptvx.one/picons/indiyskoe-kino.png" tvg-name="India" group-title="Кино" ,Индийское кино
 udp://@239.1.23.212:1234
 #EXTINF:-1 tvg-id="kinomiks" tvg-logo="https://epg.iptvx.one/picons/kinomiks.png" tvg-name="ntv+34" group-title="Кино" ,Киномикс
 udp://@239.1.23.206:1234
-#EXTINF:-1 tvg-name="Rus-Bestst" group-title="Кино" ,Русский бестселлер
+#EXTINF:-1 tvg-id="russky-bestseller" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" tvg-name="Rus-Bestst" group-title="Кино" ,Русский бестселлер
 udp://@239.1.6.165:1234
 #EXTINF:-1 tvg-name="Egoist-TV" group-title="Кино" ,Shot TV
 udp://@239.1.41.185:1234
@@ -177,13 +177,13 @@ udp://@239.1.3.172:1234
 udp://@239.1.23.179:1234
 #EXTINF:-1 tvg-id="nashe-novoe-kino" tvg-logo="https://iptvx.one/picons/nashe-novoe-kino.png" tvg-name="ntv+7" group-title="Кино" ,Наше новое кино
 udp://@239.1.23.217:1234
-#EXTINF:-1 tvg-name="RuDetektiv" group-title="Кино" ,Русский детектив
+#EXTINF:-1 tvg-id="russky-detektiv" tvg-logo="https://iptvx.one/picons/russky-detektiv.png" tvg-name="RuDetektiv" group-title="Кино" ,Русский детектив
 udp://@239.1.1.194:1234
 #EXTINF:-1 tvg-id="amedia2" tvg-logo="https://iptvx.one/picons/amedia2.png" tvg-name="AMEDIA" group-title="Кино" ,Амедиа 2
 udp://@239.1.41.132:1234
 #EXTINF:-1 tvg-id="muzhskoe-kino" tvg-logo="https://iptvx.one/picons/muzhskoe-kino.png" tvg-name="MenKino" group-title="Кино" ,Мужское кино
 udp://@239.1.23.216:1234
-#EXTINF:-1 tvg-name="KinoLiving" group-title="Кино" ,KinoLiving
+#EXTINF:-1 tvg-id="kinoliving" tvg-logo="https://iptvx.one/picons/kinoliving.png" tvg-name="KinoLiving" group-title="Кино" ,KinoLiving
 udp://@239.1.41.147:1234
 #EXTINF:-1 tvg-name="SagaTV" group-title="Кино" ,SAGA TV
 udp://@239.1.35.180:1234
@@ -213,9 +213,9 @@ udp://@239.1.3.161:1234
 udp://@239.1.23.219:1234
 #EXTINF:-1 tvg-id="zvezda-plus" tvg-logo="https://iptvx.one/picons/zvezda-plus.png" tvg-name="zvezdaPlus" deinterlace=6 group-title="Кино" ,Звезда Плюс
 udp://@239.1.23.231:1234
-#EXTINF:-1 tvg-name="ntv+3" group-title="Кино" ,Родное кино
+#EXTINF:-1 tvg-id="rodnoe-kino" tvg-logo="https://iptvx.one/picons/rodnoe-kino.png" tvg-name="ntv+3" group-title="Кино" ,Родное кино
 udp://@239.1.23.220:1234
-#EXTINF:-1 tvg-name="Zee-TV" group-title="Кино" ,Индия
+#EXTINF:-1 tvg-id="zee-tv" tvg-logo="https://iptvx.one/picons/zee-tv.png" tvg-name="Zee-TV" group-title="Кино" ,Индия
 udp://@239.1.23.225:1234
 #EXTINF:-1 tvg-id="kinouzhas" tvg-logo="https://iptvx.one/picons/kinouzhas.png" tvg-name="kinouzhas" group-title="Кино" ,Киноужас
 udp://@239.1.23.226:1234
@@ -231,13 +231,13 @@ udp://@239.1.23.208:1234
 udp://@239.1.23.214:1234
 #EXTINF:-1 tvg-id="match-arena" tvg-logo="https://iptvx.one/picons/match-arena.png" tvg-name="Matcharena" deinterlace=6 group-title="Спорт" ,Матч! Арена HD
 udp://@239.1.23.207:1234
-#EXTINF:-1 tvg-name="BoxingTV" group-title="Спорт" ,БОКС ТВ
+#EXTINF:-1 tvg-id="box-tv" tvg-logo="https://iptvx.one/picons/box-tv.png" tvg-name="BoxingTV" group-title="Спорт" ,БОКС ТВ
 udp://@239.1.23.192:1234
-#EXTINF:-1 tvg-name="JiVi" group-title="Спорт" ,Живи
+#EXTINF:-1 tvg-id="zhivi" tvg-logo="https://iptvx.one/picons/zhivi.png" tvg-name="JiVi" group-title="Спорт" ,Живи
 udp://@239.1.6.181:1234
 #EXTINF:-1 tvg-id="match-igra" tvg-logo="https://iptvx.one/picons/match-igra.png" tvg-name="Matchigra" group-title="Спорт" ,Матч! Игра
 udp://@239.1.23.205:1234
-#EXTINF:-1 tvg-name="M-1GLOBAL" group-title="Спорт" ,MMA-TV
+#EXTINF:-1 tvg-id="m1global" tvg-logo="https://iptvx.one/picons/m1global.png" tvg-name="M-1GLOBAL" group-title="Спорт" ,MMA-TV
 udp://@239.1.35.178:1234
 #EXTINF:-1 tvg-id="kxl" tvg-logo="https://iptvx.one/picons/kxl.png" tvg-name="ntv+9" group-title="Спорт" ,КХЛ
 udp://@239.1.23.209:1234
@@ -259,17 +259,17 @@ udp://@239.1.23.228:1234
 udp://@239.1.23.140:1234
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://iptvx.one/picons/bridge-tv-ruxit.png" tvg-name="Rusong_TV" group-title="Музыка" ,BRIDGE Русский Хит
 udp://@239.1.23.141:1234
-#EXTINF:-1 tvg-name="DangeTV" group-title="Музыка" ,BRIDGE HITS
+#EXTINF:-1 tvg-id="bridge-tv-dance" tvg-logo="https://iptvx.one/picons/bridge-tv-dance.png" tvg-name="DangeTV" group-title="Музыка" ,BRIDGE HITS
 udp://@239.1.23.138:1234
-#EXTINF:-1 tvg-name="MuZ-One" group-title="Музыка" ,Музыка Первого
+#EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://iptvx.one/picons/muzyka-pervogo.png" tvg-name="MuZ-One" group-title="Музыка" ,Музыка Первого
 udp://@239.1.34.143:1234
-#EXTINF:-1 tvg-name="TOPSONG_T" group-title="Музыка" ,BRIDGE CLASSIC
+#EXTINF:-1 tvg-id="bridge-tv-classic" tvg-logo="https://iptvx.one/picons/bridge-tv-classic.png" tvg-name="TOPSONG_T" group-title="Музыка" ,BRIDGE CLASSIC
 udp://@239.1.23.139:1234
 #EXTINF:-1 tvg-id="usadba" tvg-logo="https://iptvx.one/picons/usadba.png" tvg-name="Usadba_MTU" group-title="Наука" ,Усадьба
 udp://@239.1.23.245:1234
 #EXTINF:-1 tvg-name="Planeta_HD" deinterlace=6 group-title="Наука" ,Планета HD
 udp://@239.1.6.133:1234
-#EXTINF:-1 tvg-name="Vopr-Otvet" group-title="Наука" ,Вопросы и ответы
+#EXTINF:-1 tvg-id="voprosy-i-otvety" tvg-logo="https://iptvx.one/picons/voprosy-i-otvety.png" tvg-name="Vopr-Otvet" group-title="Наука" ,Вопросы и ответы
 udp://@239.1.23.238:1234
 #EXTINF:-1 tvg-id="zhivaya-planeta" tvg-logo="https://iptvx.one/picons/zhivaya-planeta.png" tvg-name="GivPlaneta" group-title="Наука" ,Живая планета
 udp://@239.1.1.196:1234
@@ -277,9 +277,9 @@ udp://@239.1.1.196:1234
 udp://@239.1.35.144:1234
 #EXTINF:-1 tvg-id="teleputeshestvia" tvg-logo="https://iptvx.one/picons/teleputeshestvia.png" tvg-name="Teletravel" group-title="Наука" ,Телепутешествия
 udp://@239.1.23.151:1234
-#EXTINF:-1 tvg-name="Nauka_2.0" group-title="Наука" ,Наука
+#EXTINF:-1 tvg-id="nauka" tvg-logo="https://iptvx.one/picons/nauka.png" tvg-name="Nauka_2.0" group-title="Наука" ,Наука
 udp://@239.1.6.161:1234
-#EXTINF:-1 tvg-name="NANO_TV" deinterlace=6 group-title="Наука" ,Нано
+#EXTINF:-1 tvg-id="nano-hd" tvg-logo="https://iptvx.one/picons/nano-hd.png" tvg-name="NANO_TV" deinterlace=6 group-title="Наука" ,Нано
 udp://@239.1.23.252:1234
 #EXTINF:-1 tvg-name="Zoopark" group-title="Наука" ,Зоопарк
 udp://@239.1.23.240:1234
