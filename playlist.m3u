@@ -45,11 +45,11 @@ udp://@235.60.101.23:2015
 udp://@235.60.101.25:2015
 #EXTINF:-1 tvg-id="zvezda" tvg-logo="https://epg.iptvx.one/picons/zvezda.png" tvg-name="ZVEZDA" group-title="Развлечения" ,Звезда
 udp://@235.60.101.26:2015
-#EXTINF:-1 tvg-name="TNT_REG" group-title="Развлечения" ,ТНТ
+#EXTINF:-1 tvg-id="tnt" tvg-logo="https://epg.iptvx.one/picons/tnt.png" tvg-name="TNT_REG" group-title="Развлечения" ,ТНТ
 udp://@235.60.101.28:2015
-#EXTINF:-1 tvg-name="TNT_4" group-title="Развлечения" ,ТНТ4
+#EXTINF:-1 tvg-id="tnt4" tvg-logo="https://epg.iptvx.one/picons/tnt4.png" tvg-name="TNT_4" group-title="Развлечения" ,ТНТ4
 udp://@239.1.41.194:1234
-#EXTINF:-1 tvg-name="2X2" group-title="Развлечения" ,2x2
+#EXTINF:-1 tvg-id="2na2" tvg-logo="https://epg.iptvx.one/picons/2na2.png" tvg-name="2X2" group-title="Развлечения" ,2x2
 udp://@239.1.41.192:1234
 #EXTINF:-1 tvg-name="Ohot&Ribal" group-title="Развлечения" ,Рыболов
 udp://@239.1.23.150:1234
@@ -117,7 +117,7 @@ udp://@239.1.23.227:1234
 udp://@239.1.6.137:1234
 #EXTINF:-1 tvg-id="karusel" tvg-logo="https://epg.iptvx.one/picons/karusel.png" tvg-name="Karusel" group-title="Детское" ,Карусель
 udp://@235.60.101.17:2015
-#EXTINF:-1 tvg-name="Solnce" group-title="Детское" ,Солнце
+#EXTINF:-1 tvg-id="solnce" tvg-logo="https://epg.iptvx.one/picons/solnce.png" tvg-name="Solnce" group-title="Детское" ,Солнце
 udp://@239.1.35.142:1234
 #EXTINF:-1 tvg-name="stskids_sd" deinterlace=6 group-title="Детское" ,СТС Kids
 udp://@239.1.41.180:1234
@@ -149,7 +149,7 @@ udp://@239.1.23.246:1234
 udp://@235.60.101.24:2015
 #EXTINF:-1 tvg-name="Subbota" group-title="Кино" ,Суббота
 udp://@239.1.41.193:1234
-#EXTINF:-1 tvg-name="Dorama" group-title="Кино" ,Дорама
+#EXTINF:-1 tvg-id="dorama" tvg-logo="https://epg.iptvx.one/picons/dorama.png" tvg-name="Dorama" group-title="Кино" ,Дорама
 udp://@239.1.41.138:1234
 #EXTINF:-1 tvg-name="Patriot" group-title="Кино" ,Патриот
 udp://@239.1.6.135:1234
@@ -161,7 +161,7 @@ udp://@239.1.1.198:1234
 udp://@239.1.35.145:1234
 #EXTINF:-1 tvg-name="India" group-title="Кино" ,Индийское кино
 udp://@239.1.23.212:1234
-#EXTINF:-1 tvg-name="ntv+34" group-title="Кино" ,Киномикс
+#EXTINF:-1 tvg-id="kinomiks" tvg-logo="https://epg.iptvx.one/picons/kinomiks.png" tvg-name="ntv+34" group-title="Кино" ,Киномикс
 udp://@239.1.23.206:1234
 #EXTINF:-1 tvg-name="Rus-Bestst" group-title="Кино" ,Русский бестселлер
 udp://@239.1.6.165:1234
@@ -189,7 +189,7 @@ udp://@239.1.41.147:1234
 udp://@239.1.35.180:1234
 #EXTINF:-1 tvg-name="NSTV" group-title="Кино" ,НСТВ
 udp://@239.1.1.201:1234
-#EXTINF:-1 tvg-name="RusRoman" group-title="Кино" ,Русский роман
+#EXTINF:-1 tvg-id="russky-roman" tvg-logo="https://epg.iptvx.one/picons/russky-roman.png" tvg-name="RusRoman" group-title="Кино" ,Русский роман
 udp://@239.1.6.162:1234
 #EXTINF:-1 tvg-name="ntv+4" deinterlace=6 group-title="Кино" ,Киносвидание
 udp://@239.1.23.232:1234
@@ -247,7 +247,7 @@ udp://@235.60.101.29:2015
 udp://@224.200.202.101:1234
 #EXTINF:-1 tvg-name="RU-TV" deinterlace=6 group-title="Музыка" ,RU.TV
 udp://@239.1.35.192:1234
-#EXTINF:-1 tvg-name="EuropaPlus" group-title="Музыка" ,ЕвропаПлюсТВ
+#EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epg.iptvx.one/picons/europa-plus-tv.png" tvg-name="EuropaPlus" group-title="Музыка" ,ЕвропаПлюсТВ
 udp://@239.1.41.152:1234
 #EXTINF:-1 tvg-name="A-ONE" group-title="Музыка" ,FON Music
 udp://@224.200.202.81:1234
@@ -255,7 +255,7 @@ udp://@224.200.202.81:1234
 udp://@239.1.23.154:1234
 #EXTINF:-1 tvg-name="La-minor" group-title="Музыка" ,Ля-минор
 udp://@239.1.23.228:1234
-#EXTINF:-1 tvg-name="Bridge-TV" group-title="Музыка" ,BRIDGE
+#EXTINF:-1 tvg-id="bridge-tv" tvg-logo="https://epg.iptvx.one/picons/bridge-tv.png" tvg-name="Bridge-TV" group-title="Музыка" ,BRIDGE
 udp://@239.1.23.140:1234
 #EXTINF:-1 tvg-name="Rusong_TV" group-title="Музыка" ,BRIDGE Русский Хит
 udp://@239.1.23.141:1234
