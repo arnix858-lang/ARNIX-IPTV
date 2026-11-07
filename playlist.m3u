@@ -53,13 +53,13 @@ udp://@239.1.41.194:1234
 udp://@239.1.41.192:1234
 #EXTINF:-1 tvg-name="Ohot&Ribal" group-title="Развлечения" ,Рыболов
 udp://@239.1.23.150:1234
-#EXTINF:-1 tvg-name="Che" group-title="Развлечения" ,Че
+#EXTINF:-1 tvg-id="che" tvg-logo="https://iptvx.one/picons/che.png" tvg-name="Che" group-title="Развлечения" ,Че
 udp://@224.200.202.181:1234
 #EXTINF:-1 tvg-name="Retro_MTU" group-title="Развлечения" ,Ретро ТВ
 udp://@239.1.23.243:1234
 #EXTINF:-1 tvg-name="365_day" deinterlace=6 group-title="Развлечения" ,365 дней
 udp://@239.1.23.210:1234
-#EXTINF:-1 tvg-name="Komedia1" group-title="Развлечения" ,Комедия
+#EXTINF:-1 tvg-id="russkaya-komedia" tvg-logo="https://iptvx.one/picons/russkaya-komedia.png" tvg-name="Komedia1" group-title="Развлечения" ,Комедия
 udp://@239.1.1.193:1234
 #EXTINF:-1 tvg-name="Drive_MTU" deinterlace=6 group-title="Развлечения" ,Драйв ТВ
 udp://@239.1.23.236:1234
@@ -111,7 +111,7 @@ udp://@239.1.3.160:1234
 udp://@239.1.6.184:1234
 #EXTINF:-1 tvg-name="fan" group-title="Развлечения" ,FAN
 udp://@239.1.6.134:1234
-#EXTINF:-1 tvg-name="KVNTV" group-title="Развлечения" ,КВН ТВ
+#EXTINF:-1 tvg-id="kvn-tv" tvg-logo="https://iptvx.one/picons/kvn-tv.png" tvg-name="KVNTV" group-title="Развлечения" ,КВН ТВ
 udp://@239.1.23.227:1234
 #EXTINF:-1 tvg-name="Kaleidosco" group-title="Развлечения" ,Калейдоскоп ТВ
 udp://@239.1.6.137:1234
@@ -155,7 +155,7 @@ udp://@239.1.41.138:1234
 udp://@239.1.6.135:1234
 #EXTINF:-1 tvg-name="KINOJAM1" group-title="Кино" ,KinoJam 1
 udp://@239.1.3.146:1234
-#EXTINF:-1 tvg-name="Park_Razvl" group-title="Кино" ,Синема
+#EXTINF:-1 tvg-id="cinema-ru" tvg-logo="https://iptvx.one/picons/cinema-ru.png" tvg-name="Park_Razvl" group-title="Кино" ,Синема
 udp://@239.1.1.198:1234
 #EXTINF:-1 tvg-name="sovetclass" deinterlace=6 group-title="Кино" ,Советская киноклассика
 udp://@239.1.35.145:1234
@@ -169,7 +169,7 @@ udp://@239.1.6.165:1234
 udp://@239.1.41.185:1234
 #EXTINF:-1 tvg-id="ntv-xit" tvg-logo="https://epg.iptvx.one/picons/ntv-xit.png" tvg-name="NTVHit" group-title="Кино" ,НТВ ХИТ
 udp://@239.1.41.168:1234
-#EXTINF:-1 tvg-name="KinipokaSD" group-title="Кино" ,Кинопоказ
+#EXTINF:-1 tvg-id="kinopokaz" tvg-logo="https://iptvx.one/picons/kinopokaz.png" tvg-name="KinipokaSD" group-title="Кино" ,Кинопоказ
 udp://@239.1.41.131:1234
 #EXTINF:-1 tvg-name="DomKinoP" deinterlace=6 group-title="Кино" ,Дом Кино Премиум HD
 udp://@239.1.3.172:1234
@@ -181,7 +181,7 @@ udp://@239.1.23.217:1234
 udp://@239.1.1.194:1234
 #EXTINF:-1 tvg-name="AMEDIA" group-title="Кино" ,Амедиа 2
 udp://@239.1.41.132:1234
-#EXTINF:-1 tvg-name="MenKino" group-title="Кино" ,Мужское кино
+#EXTINF:-1 tvg-id="muzhskoe-kino" tvg-logo="https://iptvx.one/picons/muzhskoe-kino.png" tvg-name="MenKino" group-title="Кино" ,Мужское кино
 udp://@239.1.23.216:1234
 #EXTINF:-1 tvg-name="KinoLiving" group-title="Кино" ,KinoLiving
 udp://@239.1.41.147:1234
@@ -197,9 +197,9 @@ udp://@239.1.23.232:1234
 udp://@239.1.23.215:1234
 #EXTINF:-1 tvg-name="Amedia1" group-title="Кино" ,Амедиа 1
 udp://@239.1.41.135:1234
-#EXTINF:-1 tvg-name="KinoTV" deinterlace=6 group-title="Кино" ,Кино ТВ
+#EXTINF:-1 tvg-id="kino-tv" tvg-logo="https://iptvx.one/picons/kino-tv.png" tvg-name="KinoTV" deinterlace=6 group-title="Кино" ,Кино ТВ
 udp://@224.200.202.17:1234
-#EXTINF:-1 tvg-name="MosfilmZol" group-title="Кино" ,Золотая коллекция
+#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" tvg-name="MosfilmZol" group-title="Кино" ,Золотая коллекция
 udp://@239.1.6.136:1234
 #EXTINF:-1 tvg-name="RU_ILLusio" group-title="Кино" ,Русский Иллюзион
 udp://@239.1.23.244:1234
@@ -209,7 +209,7 @@ udp://@239.1.23.241:1234
 udp://@239.1.23.237:1234
 #EXTINF:-1 tvg-id="domkino" tvg-logo="https://epg.iptvx.one/picons/domkino.png" tvg-name="DomKino" group-title="Кино" ,Дом кино
 udp://@239.1.3.161:1234
-#EXTINF:-1 tvg-name="mnogoTV" group-title="Кино" ,Киносерия
+#EXTINF:-1 tvg-id="kinoseria" tvg-logo="https://iptvx.one/picons/kinoseria.png" tvg-name="mnogoTV" group-title="Кино" ,Киносерия
 udp://@239.1.23.219:1234
 #EXTINF:-1 tvg-name="zvezdaPlus" deinterlace=6 group-title="Кино" ,Звезда Плюс
 udp://@239.1.23.231:1234
@@ -217,7 +217,7 @@ udp://@239.1.23.231:1234
 udp://@239.1.23.220:1234
 #EXTINF:-1 tvg-name="Zee-TV" group-title="Кино" ,Индия
 udp://@239.1.23.225:1234
-#EXTINF:-1 tvg-name="kinouzhas" group-title="Кино" ,Киноужас
+#EXTINF:-1 tvg-id="kinouzhas" tvg-logo="https://iptvx.one/picons/kinouzhas.png" tvg-name="kinouzhas" group-title="Кино" ,Киноужас
 udp://@239.1.23.226:1234
 #EXTINF:-1 tvg-name="Pobeda" group-title="Кино" ,Победа
 udp://@239.1.3.164:1234
