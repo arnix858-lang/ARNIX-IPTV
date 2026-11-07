@@ -1,16 +1,17 @@
 #EXTM3U
+# ARNIX IPTV — группы: Федеральные; Развлекательные; Новости; Познавательные; Кино и сериалы; Детские; Спорт; Музыка
 
-#EXTINF:-1 tvg-id="perviy-kanal" tvg-name="Первый канал" group-title="Федеральный",Первый канал
+#EXTINF:-1 tvg-id="perviy-kanal" tvg-name="Первый канал" group-title="Федеральные",Первый канал
 https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="ntv" tvg-name="НТВ" group-title="Федеральный",НТВ
+#EXTINF:-1 tvg-id="ntv" tvg-name="НТВ" group-title="Федеральные",НТВ
 https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="rossiya-1" tvg-name="Россия 1" group-title="Федеральный",Россия 1
+#EXTINF:-1 tvg-id="rossiya-1" tvg-name="Россия 1" group-title="Федеральные",Россия 1
 https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="5kanal-ru" tvg-name="Пятый канал" group-title="Федеральный",Пятый канал
+#EXTINF:-1 tvg-id="5kanal-ru" tvg-name="Пятый канал" group-title="Федеральные",Пятый канал
 http://iptv.ktkru.ru:8005/index.m3u8
 
-#EXTINF:-1 tvg-id="otr-ru" tvg-name="ОТР" group-title="Федеральный",ОТР
+#EXTINF:-1 tvg-id="otr-ru" tvg-name="ОТР" group-title="Федеральные",ОТР
 https://streaming.televizor-24-tochka.ru/live/12.m3u8
