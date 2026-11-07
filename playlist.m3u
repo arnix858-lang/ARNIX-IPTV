@@ -1,17 +1,313 @@
-#EXTM3U
-# ARNIX IPTV — группы: Федеральные; Развлекательные; Новости; Познавательные; Кино и сериалы; Детские; Спорт; Музыка
-
-#EXTINF:-1 tvg-id="perviy-kanal" tvg-name="Первый канал" group-title="Федеральные",Первый канал
-https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-id="ntv" tvg-name="НТВ" group-title="Федеральные",НТВ
-https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-id="rossiya-1" tvg-name="Россия 1" group-title="Федеральные",Россия 1
-https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-id="5kanal-ru" tvg-name="Пятый канал" group-title="Федеральные",Пятый канал
-http://iptv.ktkru.ru:8005/index.m3u8
-
-#EXTINF:-1 tvg-id="otr-ru" tvg-name="ОТР" group-title="Федеральные",ОТР
-https://streaming.televizor-24-tochka.ru/live/12.m3u8
+#EXTM3U url-tvg="http://pskovline.tv/epg/jtv.zip" m3uautoload=1 cache=500 deinterlace=8 aspect-ratio=none tvg-shift=0
+#EXTINF:-1 tvg-name="1TV" deinterlace=6 group-title="Информационный" ,Первый канал
+udp://@239.1.35.5:1234
+#EXTINF:-1 tvg-name="RTR_REG" deinterlace=6 group-title="Информационный" ,Россия 1
+udp://@239.1.35.35:1234
+#EXTINF:-1 tvg-name="NTV" group-title="Информационный" ,НТВ
+udp://@235.60.101.13:2015
+#EXTINF:-1 tvg-name="Piter5_RUS" group-title="Информационный" ,Пятый канал
+udp://@235.60.101.14:2015
+#EXTINF:-1 tvg-name="Ves24" group-title="Информационный" ,Россия 24
+udp://@235.60.101.16:2015
+#EXTINF:-1 tvg-name="OTR" group-title="Информационный" ,ОТР
+udp://@235.60.101.18:2015
+#EXTINF:-1 tvg-name="TVC_REG" group-title="Информационный" ,ТВ Центр
+udp://@235.60.101.19:2015
+#EXTINF:-1 tvg-name="MIR" group-title="Информационный" ,Мир
+udp://@235.60.101.27:2015
+#EXTINF:-1 tvg-name="1Pskov" deinterlace=6 group-title="Информационный" ,Первый Псковский
+udp://@235.60.9.1:2015
+#EXTINF:-1 tvg-name="Izvestiy" group-title="Информационный" ,Известия
+udp://@239.1.34.150:1234
+#EXTINF:-1 tvg-name="8_KANAL" group-title="Информационный" ,8 канал
+udp://@239.1.35.140:1234
+#EXTINF:-1 tvg-name="Rus_Today" group-title="Информационный" ,Russia Today
+udp://@239.1.23.135:1234
+#EXTINF:-1 tvg-name="Openworld" group-title="Информационный" ,Открытый мир
+udp://@239.1.35.154:1234
+#EXTINF:-1 tvg-name="Mir24" deinterlace=6 group-title="Информационный" ,МИР24
+udp://@239.1.6.180:1234
+#EXTINF:-1 tvg-name="RT_DocHD" deinterlace=6 group-title="Информационный" ,Russia Today DOC HD
+udp://@239.1.23.136:1234
+#EXTINF:-1 tvg-name="Belarus-TV" group-title="Информационный" ,Беларусь 24
+udp://@239.1.1.192:1234
+#EXTINF:-1 tvg-name="Vremya" group-title="Информационный" ,Время
+udp://@239.1.34.146:1234
+#EXTINF:-1 tvg-name="HD-Life" group-title="Информационный" ,Точка.РФ
+udp://@239.1.23.230:1234
+#EXTINF:-1 tvg-name="RenTV_REG" group-title="Развлечения" ,Рен ТВ
+udp://@235.60.101.20:2015
+#EXTINF:-1 tvg-name="STS" group-title="Развлечения" ,СТС
+udp://@235.60.101.22:2015
+#EXTINF:-1 tvg-name="DOMASHNIY" group-title="Развлечения" ,Домашний
+udp://@235.60.101.23:2015
+#EXTINF:-1 tvg-name="Friday" group-title="Развлечения" ,Пятница
+udp://@235.60.101.25:2015
+#EXTINF:-1 tvg-name="ZVEZDA" group-title="Развлечения" ,Звезда
+udp://@235.60.101.26:2015
+#EXTINF:-1 tvg-name="TNT_REG" group-title="Развлечения" ,ТНТ
+udp://@235.60.101.28:2015
+#EXTINF:-1 tvg-name="TNT_4" group-title="Развлечения" ,ТНТ4
+udp://@239.1.41.194:1234
+#EXTINF:-1 tvg-name="2X2" group-title="Развлечения" ,2x2
+udp://@239.1.41.192:1234
+#EXTINF:-1 tvg-name="Ohot&Ribal" group-title="Развлечения" ,Рыболов
+udp://@239.1.23.150:1234
+#EXTINF:-1 tvg-name="Che" group-title="Развлечения" ,Че
+udp://@224.200.202.181:1234
+#EXTINF:-1 tvg-name="Retro_MTU" group-title="Развлечения" ,Ретро ТВ
+udp://@239.1.23.243:1234
+#EXTINF:-1 tvg-name="365_day" deinterlace=6 group-title="Развлечения" ,365 дней
+udp://@239.1.23.210:1234
+#EXTINF:-1 tvg-name="Komedia1" group-title="Развлечения" ,Комедия
+udp://@239.1.1.193:1234
+#EXTINF:-1 tvg-name="Drive_MTU" deinterlace=6 group-title="Развлечения" ,Драйв ТВ
+udp://@239.1.23.236:1234
+#EXTINF:-1 tvg-name="Ha&Fi_MTU" group-title="Развлечения" ,Охота и рыбалка
+udp://@239.1.23.242:1234
+#EXTINF:-1 tvg-name="Kuhna" deinterlace=6 group-title="Развлечения" ,Кухня ТВ
+udp://@239.1.23.213:1234
+#EXTINF:-1 tvg-name="autoplus" deinterlace=6 group-title="Развлечения" ,Авто Плюс
+udp://@239.1.23.211:1234
+#EXTINF:-1 tvg-name="sarafan-tv" group-title="Развлечения" ,Сарафан ТВ
+udp://@239.1.6.164:1234
+#EXTINF:-1 tvg-name="STSLove" group-title="Развлечения" ,СТС Love
+udp://@224.200.202.225:1234
+#EXTINF:-1 tvg-name="Avto24" deinterlace=6 group-title="Развлечения" ,Авто24
+udp://@239.1.23.204:1234
+#EXTINF:-1 tvg-name="U" group-title="Развлечения" ,Ю ТВ
+udp://@239.1.35.141:1234
+#EXTINF:-1 tvg-name="Dikiy" group-title="Развлечения" ,Дикий
+udp://@239.1.35.155:1234
+#EXTINF:-1 tvg-name="Poehali" group-title="Развлечения" ,Поехали!
+udp://@239.1.34.144:1234
+#EXTINF:-1 tvg-name="LapkiLive" group-title="Развлечения" ,Лапки LIVE
+udp://@239.1.34.147:1234
+#EXTINF:-1 tvg-name="TONUS-TV" group-title="Развлечения" ,Тонус
+udp://@239.1.41.161:1234
+#EXTINF:-1 tvg-name="Uvelir" group-title="Развлечения" ,Ювелирочка
+udp://@239.1.35.139:1234
+#EXTINF:-1 tvg-name="BolshAziy" group-title="Развлечения" ,Большая Азия
+udp://@239.1.3.168:1234
+#EXTINF:-1 tvg-name="100TV" deinterlace=6 group-title="Развлечения" ,78 HD
+udp://@224.200.202.220:1234
+#EXTINF:-1 tvg-name="zagorodny" group-title="Развлечения" ,Загородный
+udp://@239.1.41.160:1234
+#EXTINF:-1 tvg-name="WM" group-title="Развлечения" ,Женский Журнал
+udp://@239.1.41.148:1234
+#EXTINF:-1 tvg-name="Bulvar" group-title="Развлечения" ,Жара
+udp://@239.1.35.153:1234
+#EXTINF:-1 tvg-name="Mi" group-title="Развлечения" ,Мы
+udp://@239.1.35.189:1234
+#EXTINF:-1 tvg-name="Weapons" group-title="Развлечения" ,Оружие
+udp://@239.1.23.194:1234
+#EXTINF:-1 tvg-name="TRO" group-title="Развлечения" ,БелРос
+udp://@239.1.6.183:1234
+#EXTINF:-1 tvg-name="Telekafe" group-title="Развлечения" ,Телекафе
+udp://@239.1.34.145:1234
+#EXTINF:-1 tvg-name="Bober" group-title="Развлечения" ,Бобёр
+udp://@239.1.3.160:1234
+#EXTINF:-1 tvg-name="ToshkaTV" group-title="Развлечения" ,Точка ТВ
+udp://@239.1.6.184:1234
+#EXTINF:-1 tvg-name="fan" group-title="Развлечения" ,FAN
+udp://@239.1.6.134:1234
+#EXTINF:-1 tvg-name="KVNTV" group-title="Развлечения" ,КВН ТВ
+udp://@239.1.23.227:1234
+#EXTINF:-1 tvg-name="Kaleidosco" group-title="Развлечения" ,Калейдоскоп ТВ
+udp://@239.1.6.137:1234
+#EXTINF:-1 tvg-name="Karusel" group-title="Детское" ,Карусель
+udp://@235.60.101.17:2015
+#EXTINF:-1 tvg-name="Solnce" group-title="Детское" ,Солнце
+udp://@239.1.35.142:1234
+#EXTINF:-1 tvg-name="stskids_sd" deinterlace=6 group-title="Детское" ,СТС Kids
+udp://@239.1.41.180:1234
+#EXTINF:-1 tvg-name="FamilyJam" group-title="Детское" ,FamilyJam
+udp://@239.1.3.147:1234
+#EXTINF:-1 tvg-name="tiptop" deinterlace=6 group-title="Детское" ,ТипТоп HD
+udp://@239.1.35.149:1234
+#EXTINF:-1 tvg-name="ntv+39+8" group-title="Детское" ,Детский мир
+udp://@239.1.35.143:1234
+#EXTINF:-1 tvg-name="Mother&Chi" group-title="Детское" ,Мама
+udp://@239.1.1.199:1234
+#EXTINF:-1 tvg-name="O" group-title="Детское" ,О!
+udp://@239.1.3.163:1234
+#EXTINF:-1 tvg-name="Multmuzika" group-title="Детское" ,Мультимузыка
+udp://@239.1.6.163:1234
+#EXTINF:-1 tvg-name="Ani" group-title="Детское" ,Ani
+udp://@239.1.1.197:1234
+#EXTINF:-1 tvg-name="TiJi" group-title="Детское" ,TIJI
+udp://@239.1.35.134:1234
+#EXTINF:-1 tvg-name="Detskiy" group-title="Детское" ,Уник-ум
+udp://@239.1.23.239:1234
+#EXTINF:-1 tvg-name="Mult" group-title="Детское" ,Мульт
+udp://@239.1.1.195:1234
+#EXTINF:-1 tvg-name="Gulli" group-title="Детское" ,Gulli Girl
+udp://@239.1.35.135:1234
+#EXTINF:-1 tvg-name="SuperHero" group-title="Детское" ,СуперГерои
+udp://@239.1.23.246:1234
+#EXTINF:-1 tvg-name="TV3_REG" group-title="Кино" ,ТВ3
+udp://@235.60.101.24:2015
+#EXTINF:-1 tvg-name="Subbota" group-title="Кино" ,Суббота
+udp://@239.1.41.193:1234
+#EXTINF:-1 tvg-name="Dorama" group-title="Кино" ,Дорама
+udp://@239.1.41.138:1234
+#EXTINF:-1 tvg-name="Patriot" group-title="Кино" ,Патриот
+udp://@239.1.6.135:1234
+#EXTINF:-1 tvg-name="KINOJAM1" group-title="Кино" ,KinoJam 1
+udp://@239.1.3.146:1234
+#EXTINF:-1 tvg-name="Park_Razvl" group-title="Кино" ,Синема
+udp://@239.1.1.198:1234
+#EXTINF:-1 tvg-name="sovetclass" deinterlace=6 group-title="Кино" ,Советская киноклассика
+udp://@239.1.35.145:1234
+#EXTINF:-1 tvg-name="India" group-title="Кино" ,Индийское кино
+udp://@239.1.23.212:1234
+#EXTINF:-1 tvg-name="ntv+34" group-title="Кино" ,Киномикс
+udp://@239.1.23.206:1234
+#EXTINF:-1 tvg-name="Rus-Bestst" group-title="Кино" ,Русский бестселлер
+udp://@239.1.6.165:1234
+#EXTINF:-1 tvg-name="Egoist-TV" group-title="Кино" ,Shot TV
+udp://@239.1.41.185:1234
+#EXTINF:-1 tvg-name="NTVHit" group-title="Кино" ,НТВ ХИТ
+udp://@239.1.41.168:1234
+#EXTINF:-1 tvg-name="KinipokaSD" group-title="Кино" ,Кинопоказ
+udp://@239.1.41.131:1234
+#EXTINF:-1 tvg-name="DomKinoP" deinterlace=6 group-title="Кино" ,Дом Кино Премиум HD
+udp://@239.1.3.172:1234
+#EXTINF:-1 tvg-name="AmediaHit" deinterlace=6 group-title="Кино" ,AmediaHit HD
+udp://@239.1.23.179:1234
+#EXTINF:-1 tvg-name="ntv+7" group-title="Кино" ,Наше новое кино
+udp://@239.1.23.217:1234
+#EXTINF:-1 tvg-name="RuDetektiv" group-title="Кино" ,Русский детектив
+udp://@239.1.1.194:1234
+#EXTINF:-1 tvg-name="AMEDIA" group-title="Кино" ,Амедиа 2
+udp://@239.1.41.132:1234
+#EXTINF:-1 tvg-name="MenKino" group-title="Кино" ,Мужское кино
+udp://@239.1.23.216:1234
+#EXTINF:-1 tvg-name="KinoLiving" group-title="Кино" ,KinoLiving
+udp://@239.1.41.147:1234
+#EXTINF:-1 tvg-name="SagaTV" group-title="Кино" ,SAGA TV
+udp://@239.1.35.180:1234
+#EXTINF:-1 tvg-name="NSTV" group-title="Кино" ,НСТВ
+udp://@239.1.1.201:1234
+#EXTINF:-1 tvg-name="RusRoman" group-title="Кино" ,Русский роман
+udp://@239.1.6.162:1234
+#EXTINF:-1 tvg-name="ntv+4" deinterlace=6 group-title="Кино" ,Киносвидание
+udp://@239.1.23.232:1234
+#EXTINF:-1 tvg-name="Komedia" group-title="Кино" ,Кинокомедия
+udp://@239.1.23.215:1234
+#EXTINF:-1 tvg-name="Amedia1" group-title="Кино" ,Амедиа 1
+udp://@239.1.41.135:1234
+#EXTINF:-1 tvg-name="KinoTV" deinterlace=6 group-title="Кино" ,Кино ТВ
+udp://@224.200.202.17:1234
+#EXTINF:-1 tvg-name="MosfilmZol" group-title="Кино" ,Золотая коллекция
+udp://@239.1.6.136:1234
+#EXTINF:-1 tvg-name="RU_ILLusio" group-title="Кино" ,Русский Иллюзион
+udp://@239.1.23.244:1234
+#EXTINF:-1 tvg-name="ILLUSION+" group-title="Кино" ,Иллюзион+
+udp://@239.1.23.241:1234
+#EXTINF:-1 tvg-name="EuroKINO" group-title="Кино" ,Еврокино
+udp://@239.1.23.237:1234
+#EXTINF:-1 tvg-name="DomKino" group-title="Кино" ,Дом кино
+udp://@239.1.3.161:1234
+#EXTINF:-1 tvg-name="mnogoTV" group-title="Кино" ,Киносерия
+udp://@239.1.23.219:1234
+#EXTINF:-1 tvg-name="zvezdaPlus" deinterlace=6 group-title="Кино" ,Звезда Плюс
+udp://@239.1.23.231:1234
+#EXTINF:-1 tvg-name="ntv+3" group-title="Кино" ,Родное кино
+udp://@239.1.23.220:1234
+#EXTINF:-1 tvg-name="Zee-TV" group-title="Кино" ,Индия
+udp://@239.1.23.225:1234
+#EXTINF:-1 tvg-name="kinouzhas" group-title="Кино" ,Киноужас
+udp://@239.1.23.226:1234
+#EXTINF:-1 tvg-name="Pobeda" group-title="Кино" ,Победа
+udp://@239.1.3.164:1234
+#EXTINF:-1 tvg-name="Secret" group-title="Кино" ,Тайна
+udp://@239.1.23.182:1234
+#EXTINF:-1 tvg-name="MatchTV" deinterlace=6 group-title="Спорт" ,Матч ТВ
+udp://@239.1.35.4:1234
+#EXTINF:-1 tvg-name="Mstrana" group-title="Спорт" ,Матч! Страна
+udp://@239.1.23.208:1234
+#EXTINF:-1 tvg-name="boets" group-title="Спорт" ,Матч! Боец
+udp://@239.1.23.214:1234
+#EXTINF:-1 tvg-name="Matcharena" deinterlace=6 group-title="Спорт" ,Матч! Арена HD
+udp://@239.1.23.207:1234
+#EXTINF:-1 tvg-name="BoxingTV" group-title="Спорт" ,БОКС ТВ
+udp://@239.1.23.192:1234
+#EXTINF:-1 tvg-name="JiVi" group-title="Спорт" ,Живи
+udp://@239.1.6.181:1234
+#EXTINF:-1 tvg-name="Matchigra" group-title="Спорт" ,Матч! Игра
+udp://@239.1.23.205:1234
+#EXTINF:-1 tvg-name="M-1GLOBAL" group-title="Спорт" ,MMA-TV
+udp://@239.1.35.178:1234
+#EXTINF:-1 tvg-name="ntv+9" group-title="Спорт" ,КХЛ
+udp://@239.1.23.209:1234
+#EXTINF:-1 tvg-name="MUZ_TVnew" group-title="Музыка" ,Муз
+udp://@235.60.101.29:2015
+#EXTINF:-1 tvg-name="1HD" deinterlace=6 group-title="Музыка" ,1HD
+udp://@224.200.202.101:1234
+#EXTINF:-1 tvg-name="RU-TV" deinterlace=6 group-title="Музыка" ,RU.TV
+udp://@239.1.35.192:1234
+#EXTINF:-1 tvg-name="EuropaPlus" group-title="Музыка" ,ЕвропаПлюсТВ
+udp://@239.1.41.152:1234
+#EXTINF:-1 tvg-name="A-ONE" group-title="Музыка" ,FON Music
+udp://@224.200.202.81:1234
+#EXTINF:-1 tvg-name="MusicBox-R" group-title="Музыка" ,RUSSIAN MUSICBOX
+udp://@239.1.23.154:1234
+#EXTINF:-1 tvg-name="La-minor" group-title="Музыка" ,Ля-минор
+udp://@239.1.23.228:1234
+#EXTINF:-1 tvg-name="Bridge-TV" group-title="Музыка" ,BRIDGE
+udp://@239.1.23.140:1234
+#EXTINF:-1 tvg-name="Rusong_TV" group-title="Музыка" ,BRIDGE Русский Хит
+udp://@239.1.23.141:1234
+#EXTINF:-1 tvg-name="DangeTV" group-title="Музыка" ,BRIDGE HITS
+udp://@239.1.23.138:1234
+#EXTINF:-1 tvg-name="MuZ-One" group-title="Музыка" ,Музыка Первого
+udp://@239.1.34.143:1234
+#EXTINF:-1 tvg-name="TOPSONG_T" group-title="Музыка" ,BRIDGE CLASSIC
+udp://@239.1.23.139:1234
+#EXTINF:-1 tvg-name="Usadba_MTU" group-title="Наука" ,Усадьба
+udp://@239.1.23.245:1234
+#EXTINF:-1 tvg-name="Planeta_HD" deinterlace=6 group-title="Наука" ,Планета HD
+udp://@239.1.6.133:1234
+#EXTINF:-1 tvg-name="Vopr-Otvet" group-title="Наука" ,Вопросы и ответы
+udp://@239.1.23.238:1234
+#EXTINF:-1 tvg-name="GivPlaneta" group-title="Наука" ,Живая планета
+udp://@239.1.1.196:1234
+#EXTINF:-1 tvg-name="RTG_TV" group-title="Наука" ,RTG TV
+udp://@239.1.35.144:1234
+#EXTINF:-1 tvg-name="Teletravel" group-title="Наука" ,Телепутешествия
+udp://@239.1.23.151:1234
+#EXTINF:-1 tvg-name="Nauka_2.0" group-title="Наука" ,Наука
+udp://@239.1.6.161:1234
+#EXTINF:-1 tvg-name="NANO_TV" deinterlace=6 group-title="Наука" ,Нано
+udp://@239.1.23.252:1234
+#EXTINF:-1 tvg-name="Zoopark" group-title="Наука" ,Зоопарк
+udp://@239.1.23.240:1234
+#EXTINF:-1 tvg-name="Tehno24" group-title="Наука" ,Техно 24
+udp://@239.1.1.200:1234
+#EXTINF:-1 tvg-name="360d" group-title="Бизнес" ,360.ru
+udp://@239.1.23.147:1234
+#EXTINF:-1 tvg-name="SovetFeder" group-title="Бизнес" ,Вместе РФ
+udp://@239.1.34.142:1234
+#EXTINF:-1 tvg-name="RBK" deinterlace=6 group-title="Бизнес" ,РБК
+udp://@239.1.23.148:1234
+#EXTINF:-1 tvg-name="KUL" group-title="Культура" ,Россия К
+udp://@235.60.101.15:2015
+#EXTINF:-1 tvg-name="SPAS" group-title="Культура" ,Спас
+udp://@235.60.101.21:2015
+#EXTINF:-1 tvg-name="" group-title="Культура" ,Надежда
+udp://@239.1.23.222:1234
+#EXTINF:-1 tvg-name="TBN" group-title="Культура" ,ТБН
+udp://@239.1.23.149:1234
+#EXTINF:-1 tvg-name="Sojuz" group-title="Культура" ,Союз
+udp://@224.200.202.126:1234
+#EXTINF:-1 tvg-name="RuHistory" group-title="Культура" ,Русская История
+udp://@239.1.23.255:1234
+#EXTINF:-1 tvg-name="Istoria" group-title="Культура" ,История
+udp://@239.1.1.191:1234
+#EXTINF:-1 tvg-name="KrasLin" group-title="Культура" ,Красная Линия
+udp://@239.1.34.193:1234
+#EXTINF:-1 tvg-name="Nostalgi" group-title="Культура" ,Ностальгия
+udp://@239.1.23.218:1234
+#EXTINF:-1 tvg-name="Who_is_who" group-title="Культура" ,Кто есть кто
+udp://@239.1.23.223:1234
