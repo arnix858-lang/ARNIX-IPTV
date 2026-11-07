@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-name="1TV" deinterlace=6 group-title="Информационный" ,Первый канал
 https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="RTR_REG" deinterlace=6 group-title="Информационный" ,Россия 1
-udp://@239.1.35.35:1234
+https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="NTV" group-title="Информационный" ,НТВ
 udp://@235.60.101.13:2015
 #EXTINF:-1 tvg-name="Piter5_RUS" group-title="Информационный" ,Пятый канал
