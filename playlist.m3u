@@ -1,247 +1,247 @@
 #EXTM3U url-tvg="https://epg.one/epg2.xml.gz" x-tvg-url="https://epg.one/epg2.xml.gz" m3uautoload=1 cache=500 deinterlace=8 aspect-ratio=none tvg-shift=0
-#EXTINF:-1 tvg-name="1TV" deinterlace=6 group-title="Информационный" ,Первый канал
+#EXTINF:-1 tvg-id="146" tvg-logo="https://epg.one/img/146.png" tvg-name="1TV" deinterlace=6 group-title="Информационный" ,Первый канал
 https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="RTR_REG" deinterlace=6 group-title="Информационный" ,Россия 1
+#EXTINF:-1 tvg-id="711" tvg-logo="https://epg.one/img/711.png" tvg-name="RTR_REG" deinterlace=6 group-title="Информационный" ,Россия 1
 https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="NTV" group-title="Информационный" ,НТВ
+#EXTINF:-1 tvg-id="162" tvg-logo="https://epg.one/img/162.png" tvg-name="NTV" group-title="Информационный" ,НТВ
 udp://@235.60.101.13:2015
-#EXTINF:-1 tvg-name="Piter5_RUS" group-title="Информационный" ,Пятый канал
+#EXTINF:-1 tvg-id="427" tvg-logo="https://epg.one/img/427.png" tvg-name="Piter5_RUS" group-title="Информационный" ,Пятый канал
 udp://@235.60.101.14:2015
-#EXTINF:-1 tvg-name="Ves24" group-title="Информационный" ,Россия 24
+#EXTINF:-1 tvg-id="1683" tvg-logo="https://epg.one/img/1683.png" tvg-name="Ves24" group-title="Информационный" ,Россия 24
 udp://@235.60.101.16:2015
-#EXTINF:-1 tvg-name="OTR" group-title="Информационный" ,ОТР
+#EXTINF:-1 tvg-id="1000" tvg-logo="https://epg.one/img/1000.png" tvg-name="OTR" group-title="Информационный" ,ОТР
 udp://@235.60.101.18:2015
-#EXTINF:-1 tvg-name="TVC_REG" group-title="Информационный" ,ТВ Центр
+#EXTINF:-1 tvg-id="649" tvg-logo="https://epg.one/img/649.png" tvg-name="TVC_REG" group-title="Информационный" ,ТВ Центр
 udp://@235.60.101.19:2015
-#EXTINF:-1 tvg-name="MIR" group-title="Информационный" ,Мир
+#EXTINF:-1 tvg-id="726" tvg-logo="https://epg.one/img/726.png" tvg-name="MIR" group-title="Информационный" ,Мир
 udp://@235.60.101.27:2015
 #EXTINF:-1 tvg-name="1Pskov" deinterlace=6 group-title="Информационный" ,Первый Псковский
 udp://@235.60.9.1:2015
-#EXTINF:-1 tvg-name="Izvestiy" group-title="Информационный" ,Известия
+#EXTINF:-1 tvg-id="2271" tvg-logo="https://epg.one/img/2271.png" tvg-name="Izvestiy" group-title="Информационный" ,Известия
 udp://@239.1.34.150:1234
 #EXTINF:-1 tvg-name="8_KANAL" group-title="Информационный" ,8 канал
 udp://@239.1.35.140:1234
 #EXTINF:-1 tvg-name="Rus_Today" group-title="Информационный" ,Russia Today
 udp://@239.1.23.135:1234
-#EXTINF:-1 tvg-name="Openworld" group-title="Информационный" ,Открытый мир
+#EXTINF:-1 tvg-id="2462" tvg-logo="https://epg.one/img/2462.png" tvg-name="Openworld" group-title="Информационный" ,Открытый мир
 udp://@239.1.35.154:1234
-#EXTINF:-1 tvg-name="Mir24" deinterlace=6 group-title="Информационный" ,МИР24
+#EXTINF:-1 tvg-id="2078" tvg-logo="https://epg.one/img/2078.png" tvg-name="Mir24" deinterlace=6 group-title="Информационный" ,МИР24
 udp://@239.1.6.180:1234
 #EXTINF:-1 tvg-name="RT_DocHD" deinterlace=6 group-title="Информационный" ,Russia Today DOC HD
 udp://@239.1.23.136:1234
 #EXTINF:-1 tvg-name="Belarus-TV" group-title="Информационный" ,Беларусь 24
 udp://@239.1.1.192:1234
-#EXTINF:-1 tvg-name="Vremya" group-title="Информационный" ,Время
+#EXTINF:-1 tvg-id="669" tvg-logo="https://epg.one/img/669.png" tvg-name="Vremya" group-title="Информационный" ,Время
 udp://@239.1.34.146:1234
-#EXTINF:-1 tvg-name="HD-Life" group-title="Информационный" ,Точка.РФ
+#EXTINF:-1 tvg-id="415" tvg-logo="https://epg.one/img/415.png" tvg-name="HD-Life" group-title="Информационный" ,Точка.РФ
 udp://@239.1.23.230:1234
-#EXTINF:-1 tvg-name="RenTV_REG" group-title="Развлечения" ,Рен ТВ
+#EXTINF:-1 tvg-id="18" tvg-logo="https://epg.one/img/18.png" tvg-name="RenTV_REG" group-title="Развлечения" ,Рен ТВ
 udp://@235.60.101.20:2015
-#EXTINF:-1 tvg-name="STS" group-title="Развлечения" ,СТС
+#EXTINF:-1 tvg-id="79" tvg-logo="https://epg.one/img/79.png" tvg-name="STS" group-title="Развлечения" ,СТС
 udp://@235.60.101.22:2015
-#EXTINF:-1 tvg-name="DOMASHNIY" group-title="Развлечения" ,Домашний
+#EXTINF:-1 tvg-id="304" tvg-logo="https://epg.one/img/304.png" tvg-name="DOMASHNIY" group-title="Развлечения" ,Домашний
 udp://@235.60.101.23:2015
-#EXTINF:-1 tvg-name="Friday" group-title="Развлечения" ,Пятница
+#EXTINF:-1 tvg-id="1003" tvg-logo="https://epg.one/img/1003.png" tvg-name="Friday" group-title="Развлечения" ,Пятница
 udp://@235.60.101.25:2015
-#EXTINF:-1 tvg-name="ZVEZDA" group-title="Развлечения" ,Звезда
+#EXTINF:-1 tvg-id="405" tvg-logo="https://epg.one/img/405.png" tvg-name="ZVEZDA" group-title="Развлечения" ,Звезда
 udp://@235.60.101.26:2015
-#EXTINF:-1 tvg-name="TNT_REG" group-title="Развлечения" ,ТНТ
+#EXTINF:-1 tvg-id="353" tvg-logo="https://epg.one/img/353.png" tvg-name="TNT_REG" group-title="Развлечения" ,ТНТ
 udp://@235.60.101.28:2015
-#EXTINF:-1 tvg-name="TNT_4" group-title="Развлечения" ,ТНТ4
+#EXTINF:-1 tvg-id="1649" tvg-logo="https://epg.one/img/1649.png" tvg-name="TNT_4" group-title="Развлечения" ,ТНТ4
 udp://@239.1.41.194:1234
-#EXTINF:-1 tvg-name="2X2" group-title="Развлечения" ,2x2
+#EXTINF:-1 tvg-id="323" tvg-logo="https://epg.one/img/323.png" tvg-name="2X2" group-title="Развлечения" ,2x2
 udp://@239.1.41.192:1234
 #EXTINF:-1 tvg-name="Ohot&Ribal" group-title="Развлечения" ,Рыболов
 udp://@239.1.23.150:1234
-#EXTINF:-1 tvg-name="Che" group-title="Развлечения" ,Че
+#EXTINF:-1 tvg-id="1598" tvg-logo="https://epg.one/img/1598.png" tvg-name="Che" group-title="Развлечения" ,Че
 udp://@224.200.202.181:1234
-#EXTINF:-1 tvg-name="Retro_MTU" group-title="Развлечения" ,Ретро ТВ
+#EXTINF:-1 tvg-id="2402" tvg-logo="https://epg.one/img/2402.png" tvg-name="Retro_MTU" group-title="Развлечения" ,Ретро ТВ
 udp://@239.1.23.243:1234
-#EXTINF:-1 tvg-name="365_day" deinterlace=6 group-title="Развлечения" ,365 дней
+#EXTINF:-1 tvg-id="2423" tvg-logo="https://epg.one/img/2423.png" tvg-name="365_day" deinterlace=6 group-title="Развлечения" ,365 дней
 udp://@239.1.23.210:1234
-#EXTINF:-1 tvg-name="Komedia1" group-title="Развлечения" ,Комедия
+#EXTINF:-1 tvg-id="1620" tvg-logo="https://epg.one/img/1620.png" tvg-name="Komedia1" group-title="Развлечения" ,Комедия
 udp://@239.1.1.193:1234
-#EXTINF:-1 tvg-name="Drive_MTU" deinterlace=6 group-title="Развлечения" ,Драйв ТВ
+#EXTINF:-1 tvg-id="2443" tvg-logo="https://epg.one/img/2443.png" tvg-name="Drive_MTU" deinterlace=6 group-title="Развлечения" ,Драйв ТВ
 udp://@239.1.23.236:1234
-#EXTINF:-1 tvg-name="Ha&Fi_MTU" group-title="Развлечения" ,Охота и рыбалка
+#EXTINF:-1 tvg-id="2419" tvg-logo="https://epg.one/img/2419.png" tvg-name="Ha&Fi_MTU" group-title="Развлечения" ,Охота и рыбалка
 udp://@239.1.23.242:1234
-#EXTINF:-1 tvg-name="Kuhna" deinterlace=6 group-title="Развлечения" ,Кухня ТВ
+#EXTINF:-1 tvg-id="614" tvg-logo="https://epg.one/img/614.png" tvg-name="Kuhna" deinterlace=6 group-title="Развлечения" ,Кухня ТВ
 udp://@239.1.23.213:1234
-#EXTINF:-1 tvg-name="autoplus" deinterlace=6 group-title="Развлечения" ,Авто Плюс
+#EXTINF:-1 tvg-id="153" tvg-logo="https://epg.one/img/153.png" tvg-name="autoplus" deinterlace=6 group-title="Развлечения" ,Авто Плюс
 udp://@239.1.23.211:1234
-#EXTINF:-1 tvg-name="sarafan-tv" group-title="Развлечения" ,Сарафан ТВ
+#EXTINF:-1 tvg-id="663" tvg-logo="https://epg.one/img/663.png" tvg-name="sarafan-tv" group-title="Развлечения" ,Сарафан ТВ
 udp://@239.1.6.164:1234
-#EXTINF:-1 tvg-name="STSLove" group-title="Развлечения" ,СТС Love
+#EXTINF:-1 tvg-id="1322" tvg-logo="https://epg.one/img/1322.png" tvg-name="STSLove" group-title="Развлечения" ,СТС Love
 udp://@224.200.202.225:1234
-#EXTINF:-1 tvg-name="Avto24" deinterlace=6 group-title="Развлечения" ,Авто24
+#EXTINF:-1 tvg-id="2008" tvg-logo="https://epg.one/img/2008.png" tvg-name="Avto24" deinterlace=6 group-title="Развлечения" ,Авто24
 udp://@239.1.23.204:1234
-#EXTINF:-1 tvg-name="U" group-title="Развлечения" ,Ю ТВ
+#EXTINF:-1 tvg-id="898" tvg-logo="https://epg.one/img/898.png" tvg-name="U" group-title="Развлечения" ,Ю ТВ
 udp://@239.1.35.141:1234
-#EXTINF:-1 tvg-name="Dikiy" group-title="Развлечения" ,Дикий
+#EXTINF:-1 tvg-id="2283" tvg-logo="https://epg.one/img/2283.png" tvg-name="Dikiy" group-title="Развлечения" ,Дикий
 udp://@239.1.35.155:1234
-#EXTINF:-1 tvg-name="Poehali" group-title="Развлечения" ,Поехали!
+#EXTINF:-1 tvg-id="2350" tvg-logo="https://epg.one/img/2350.png" tvg-name="Poehali" group-title="Развлечения" ,Поехали!
 udp://@239.1.34.144:1234
-#EXTINF:-1 tvg-name="LapkiLive" group-title="Развлечения" ,Лапки LIVE
+#EXTINF:-1 tvg-id="9093" tvg-logo="https://epg.one/img/9093.png" tvg-name="LapkiLive" group-title="Развлечения" ,Лапки LIVE
 udp://@239.1.34.147:1234
 #EXTINF:-1 tvg-name="TONUS-TV" group-title="Развлечения" ,Тонус
 udp://@239.1.41.161:1234
 #EXTINF:-1 tvg-name="Uvelir" group-title="Развлечения" ,Ювелирочка
 udp://@239.1.35.139:1234
-#EXTINF:-1 tvg-name="BolshAziy" group-title="Развлечения" ,Большая Азия
+#EXTINF:-1 tvg-id="2417" tvg-logo="https://epg.one/img/2417.png" tvg-name="BolshAziy" group-title="Развлечения" ,Большая Азия
 udp://@239.1.3.168:1234
 #EXTINF:-1 tvg-name="100TV" deinterlace=6 group-title="Развлечения" ,78 HD
 udp://@224.200.202.220:1234
-#EXTINF:-1 tvg-name="zagorodny" group-title="Развлечения" ,Загородный
+#EXTINF:-1 tvg-id="2463" tvg-logo="https://epg.one/img/2463.png" tvg-name="zagorodny" group-title="Развлечения" ,Загородный
 udp://@239.1.41.160:1234
-#EXTINF:-1 tvg-name="WM" group-title="Развлечения" ,Женский Журнал
+#EXTINF:-1 tvg-id="9040" tvg-logo="https://epg.one/img/9040.png" tvg-name="WM" group-title="Развлечения" ,Женский Журнал
 udp://@239.1.41.148:1234
-#EXTINF:-1 tvg-name="Bulvar" group-title="Развлечения" ,Жара
+#EXTINF:-1 tvg-id="165" tvg-logo="https://epg.one/img/165.png" tvg-name="Bulvar" group-title="Развлечения" ,Жара
 udp://@239.1.35.153:1234
 #EXTINF:-1 tvg-name="Mi" group-title="Развлечения" ,Мы
 udp://@239.1.35.189:1234
-#EXTINF:-1 tvg-name="Weapons" group-title="Развлечения" ,Оружие
+#EXTINF:-1 tvg-id="2430" tvg-logo="https://epg.one/img/2430.png" tvg-name="Weapons" group-title="Развлечения" ,Оружие
 udp://@239.1.23.194:1234
 #EXTINF:-1 tvg-name="TRO" group-title="Развлечения" ,БелРос
 udp://@239.1.6.183:1234
-#EXTINF:-1 tvg-name="Telekafe" group-title="Развлечения" ,Телекафе
+#EXTINF:-1 tvg-id="2304" tvg-logo="https://epg.one/img/2304.png" tvg-name="Telekafe" group-title="Развлечения" ,Телекафе
 udp://@239.1.34.145:1234
-#EXTINF:-1 tvg-name="Bober" group-title="Развлечения" ,Бобёр
+#EXTINF:-1 tvg-id="2026" tvg-logo="https://epg.one/img/2026.png" tvg-name="Bober" group-title="Развлечения" ,Бобёр
 udp://@239.1.3.160:1234
-#EXTINF:-1 tvg-name="ToshkaTV" group-title="Развлечения" ,Точка ТВ
+#EXTINF:-1 tvg-id="2457" tvg-logo="https://epg.one/img/2457.png" tvg-name="ToshkaTV" group-title="Развлечения" ,Точка ТВ
 udp://@239.1.6.184:1234
-#EXTINF:-1 tvg-name="fan" group-title="Развлечения" ,FAN
+#EXTINF:-1 tvg-id="2359" tvg-logo="https://epg.one/img/2359.png" tvg-name="fan" group-title="Развлечения" ,FAN
 udp://@239.1.6.134:1234
-#EXTINF:-1 tvg-name="KVNTV" group-title="Развлечения" ,КВН ТВ
+#EXTINF:-1 tvg-id="1700" tvg-logo="https://epg.one/img/1700.png" tvg-name="KVNTV" group-title="Развлечения" ,КВН ТВ
 udp://@239.1.23.227:1234
-#EXTINF:-1 tvg-name="Kaleidosco" group-title="Развлечения" ,Калейдоскоп ТВ
+#EXTINF:-1 tvg-id="2761" tvg-logo="https://epg.one/img/2761.png" tvg-name="Kaleidosco" group-title="Развлечения" ,Калейдоскоп ТВ
 udp://@239.1.6.137:1234
-#EXTINF:-1 tvg-name="Karusel" group-title="Детское" ,Карусель
+#EXTINF:-1 tvg-id="740" tvg-logo="https://epg.one/img/740.png" tvg-name="Karusel" group-title="Детское" ,Карусель
 udp://@235.60.101.17:2015
-#EXTINF:-1 tvg-name="Solnce" group-title="Детское" ,Солнце
+#EXTINF:-1 tvg-id="7669" tvg-logo="https://epg.one/img/7669.png" tvg-name="Solnce" group-title="Детское" ,Солнце
 udp://@239.1.35.142:1234
-#EXTINF:-1 tvg-name="stskids_sd" deinterlace=6 group-title="Детское" ,СТС Kids
+#EXTINF:-1 tvg-id="2481" tvg-logo="https://epg.one/img/2481.png" tvg-name="stskids_sd" deinterlace=6 group-title="Детское" ,СТС Kids
 udp://@239.1.41.180:1234
-#EXTINF:-1 tvg-name="FamilyJam" group-title="Детское" ,FamilyJam
+#EXTINF:-1 tvg-id="7902" tvg-logo="https://epg.one/img/7902.png" tvg-name="FamilyJam" group-title="Детское" ,FamilyJam
 udp://@239.1.3.147:1234
-#EXTINF:-1 tvg-name="tiptop" deinterlace=6 group-title="Детское" ,ТипТоп HD
+#EXTINF:-1 tvg-id="7596" tvg-logo="https://epg.one/img/7596.png" tvg-name="tiptop" deinterlace=6 group-title="Детское" ,ТипТоп HD
 udp://@239.1.35.149:1234
-#EXTINF:-1 tvg-name="ntv+39+8" group-title="Детское" ,Детский мир
+#EXTINF:-1 tvg-id="923" tvg-logo="https://epg.one/img/923.png" tvg-name="ntv+39+8" group-title="Детское" ,Детский мир
 udp://@239.1.35.143:1234
-#EXTINF:-1 tvg-name="Mother&Chi" group-title="Детское" ,Мама
+#EXTINF:-1 tvg-id="618" tvg-logo="https://epg.one/img/618.png" tvg-name="Mother&Chi" group-title="Детское" ,Мама
 udp://@239.1.1.199:1234
-#EXTINF:-1 tvg-name="O" group-title="Детское" ,О!
+#EXTINF:-1 tvg-id="1757" tvg-logo="https://epg.one/img/1757.png" tvg-name="O" group-title="Детское" ,О!
 udp://@239.1.3.163:1234
-#EXTINF:-1 tvg-name="Multmuzika" group-title="Детское" ,Мультимузыка
+#EXTINF:-1 tvg-id="284" tvg-logo="https://epg.one/img/284.png" tvg-name="Multmuzika" group-title="Детское" ,Мультимузыка
 udp://@239.1.6.163:1234
-#EXTINF:-1 tvg-name="Ani" group-title="Детское" ,Ani
+#EXTINF:-1 tvg-id="2011" tvg-logo="https://epg.one/img/2011.png" tvg-name="Ani" group-title="Детское" ,Ani
 udp://@239.1.1.197:1234
-#EXTINF:-1 tvg-name="TiJi" group-title="Детское" ,TIJI
+#EXTINF:-1 tvg-id="555" tvg-logo="https://epg.one/img/555.png" tvg-name="TiJi" group-title="Детское" ,TIJI
 udp://@239.1.35.134:1234
 #EXTINF:-1 tvg-name="Detskiy" group-title="Детское" ,Уник-ум
 udp://@239.1.23.239:1234
-#EXTINF:-1 tvg-name="Mult" group-title="Детское" ,Мульт
+#EXTINF:-1 tvg-id="1332" tvg-logo="https://epg.one/img/1332.png" tvg-name="Mult" group-title="Детское" ,Мульт
 udp://@239.1.1.195:1234
-#EXTINF:-1 tvg-name="Gulli" group-title="Детское" ,Gulli Girl
+#EXTINF:-1 tvg-id="810" tvg-logo="https://epg.one/img/810.png" tvg-name="Gulli" group-title="Детское" ,Gulli Girl
 udp://@239.1.35.135:1234
-#EXTINF:-1 tvg-name="SuperHero" group-title="Детское" ,СуперГерои
+#EXTINF:-1 tvg-id="2239" tvg-logo="https://epg.one/img/2239.png" tvg-name="SuperHero" group-title="Детское" ,СуперГерои
 udp://@239.1.23.246:1234
-#EXTINF:-1 tvg-name="TV3_REG" group-title="Кино" ,ТВ3
+#EXTINF:-1 tvg-id="698" tvg-logo="https://epg.one/img/698.png" tvg-name="TV3_REG" group-title="Кино" ,ТВ3
 udp://@235.60.101.24:2015
-#EXTINF:-1 tvg-name="Subbota" group-title="Кино" ,Суббота
+#EXTINF:-1 tvg-id="2288" tvg-logo="https://epg.one/img/2288.png" tvg-name="Subbota" group-title="Кино" ,Суббота
 udp://@239.1.41.193:1234
-#EXTINF:-1 tvg-name="Dorama" group-title="Кино" ,Дорама
+#EXTINF:-1 tvg-id="2174" tvg-logo="https://epg.one/img/2174.png" tvg-name="Dorama" group-title="Кино" ,Дорама
 udp://@239.1.41.138:1234
-#EXTINF:-1 tvg-name="Patriot" group-title="Кино" ,Патриот
+#EXTINF:-1 tvg-id="11469" tvg-logo="https://epg.one/img/11469.png" tvg-name="Patriot" group-title="Кино" ,Патриот
 udp://@239.1.6.135:1234
-#EXTINF:-1 tvg-name="KINOJAM1" group-title="Кино" ,KinoJam 1
+#EXTINF:-1 tvg-id="4466" tvg-logo="https://epg.one/img/4466.png" tvg-name="KINOJAM1" group-title="Кино" ,KinoJam 1
 udp://@239.1.3.146:1234
 #EXTINF:-1 tvg-name="Park_Razvl" group-title="Кино" ,Синема
 udp://@239.1.1.198:1234
-#EXTINF:-1 tvg-name="sovetclass" deinterlace=6 group-title="Кино" ,Советская киноклассика
+#EXTINF:-1 tvg-id="9002" tvg-logo="https://epg.one/img/9002.png" tvg-name="sovetclass" deinterlace=6 group-title="Кино" ,Советская киноклассика
 udp://@239.1.35.145:1234
-#EXTINF:-1 tvg-name="India" group-title="Кино" ,Индийское кино
+#EXTINF:-1 tvg-id="798" tvg-logo="https://epg.one/img/798.png" tvg-name="India" group-title="Кино" ,Индийское кино
 udp://@239.1.23.212:1234
-#EXTINF:-1 tvg-name="ntv+34" group-title="Кино" ,Киномикс
+#EXTINF:-1 tvg-id="644" tvg-logo="https://epg.one/img/644.png" tvg-name="ntv+34" group-title="Кино" ,Киномикс
 udp://@239.1.23.206:1234
-#EXTINF:-1 tvg-name="Rus-Bestst" group-title="Кино" ,Русский бестселлер
+#EXTINF:-1 tvg-id="994" tvg-logo="https://epg.one/img/994.png" tvg-name="Rus-Bestst" group-title="Кино" ,Русский бестселлер
 udp://@239.1.6.165:1234
-#EXTINF:-1 tvg-name="Egoist-TV" group-title="Кино" ,Shot TV
+#EXTINF:-1 tvg-id="431" tvg-logo="https://epg.one/img/431.png" tvg-name="Egoist-TV" group-title="Кино" ,Shot TV
 udp://@239.1.41.185:1234
-#EXTINF:-1 tvg-name="NTVHit" group-title="Кино" ,НТВ ХИТ
+#EXTINF:-1 tvg-id="2041" tvg-logo="https://epg.one/img/2041.png" tvg-name="NTVHit" group-title="Кино" ,НТВ ХИТ
 udp://@239.1.41.168:1234
-#EXTINF:-1 tvg-name="KinipokaSD" group-title="Кино" ,Кинопоказ
+#EXTINF:-1 tvg-id="2834" tvg-logo="https://epg.one/img/2834.png" tvg-name="KinipokaSD" group-title="Кино" ,Кинопоказ
 udp://@239.1.41.131:1234
-#EXTINF:-1 tvg-name="DomKinoP" deinterlace=6 group-title="Кино" ,Дом Кино Премиум HD
+#EXTINF:-1 tvg-id="2020" tvg-logo="https://epg.one/img/2020.png" tvg-name="DomKinoP" deinterlace=6 group-title="Кино" ,Дом Кино Премиум HD
 udp://@239.1.3.172:1234
-#EXTINF:-1 tvg-name="AmediaHit" deinterlace=6 group-title="Кино" ,AmediaHit HD
+#EXTINF:-1 tvg-id="2007" tvg-logo="https://epg.one/img/2007.png" tvg-name="AmediaHit" deinterlace=6 group-title="Кино" ,AmediaHit HD
 udp://@239.1.23.179:1234
-#EXTINF:-1 tvg-name="ntv+7" group-title="Кино" ,Наше новое кино
+#EXTINF:-1 tvg-id="485" tvg-logo="https://epg.one/img/485.png" tvg-name="ntv+7" group-title="Кино" ,Наше новое кино
 udp://@239.1.23.217:1234
-#EXTINF:-1 tvg-name="RuDetektiv" group-title="Кино" ,Русский детектив
+#EXTINF:-1 tvg-id="1570" tvg-logo="https://epg.one/img/1570.png" tvg-name="RuDetektiv" group-title="Кино" ,Русский детектив
 udp://@239.1.1.194:1234
 #EXTINF:-1 tvg-name="AMEDIA" group-title="Кино" ,Амедиа 2
 udp://@239.1.41.132:1234
-#EXTINF:-1 tvg-name="MenKino" group-title="Кино" ,Мужское кино
+#EXTINF:-1 tvg-id="1584" tvg-logo="https://epg.one/img/1584.png" tvg-name="MenKino" group-title="Кино" ,Мужское кино
 udp://@239.1.23.216:1234
-#EXTINF:-1 tvg-name="KinoLiving" group-title="Кино" ,KinoLiving
+#EXTINF:-1 tvg-id="9123" tvg-logo="https://epg.one/img/9123.png" tvg-name="KinoLiving" group-title="Кино" ,KinoLiving
 udp://@239.1.41.147:1234
-#EXTINF:-1 tvg-name="SagaTV" group-title="Кино" ,SAGA TV
+#EXTINF:-1 tvg-id="11759" tvg-logo="https://epg.one/img/11759.png" tvg-name="SagaTV" group-title="Кино" ,SAGA TV
 udp://@239.1.35.180:1234
-#EXTINF:-1 tvg-name="NSTV" group-title="Кино" ,НСТВ
+#EXTINF:-1 tvg-id="518" tvg-logo="https://epg.one/img/518.png" tvg-name="NSTV" group-title="Кино" ,НСТВ
 udp://@239.1.1.201:1234
-#EXTINF:-1 tvg-name="RusRoman" group-title="Кино" ,Русский роман
+#EXTINF:-1 tvg-id="401" tvg-logo="https://epg.one/img/401.png" tvg-name="RusRoman" group-title="Кино" ,Русский роман
 udp://@239.1.6.162:1234
-#EXTINF:-1 tvg-name="ntv+4" deinterlace=6 group-title="Кино" ,Киносвидание
+#EXTINF:-1 tvg-id="462" tvg-logo="https://epg.one/img/462.png" tvg-name="ntv+4" deinterlace=6 group-title="Кино" ,Киносвидание
 udp://@239.1.23.232:1234
-#EXTINF:-1 tvg-name="Komedia" group-title="Кино" ,Кинокомедия
+#EXTINF:-1 tvg-id="821" tvg-logo="https://epg.one/img/821.png" tvg-name="Komedia" group-title="Кино" ,Кинокомедия
 udp://@239.1.23.215:1234
 #EXTINF:-1 tvg-name="Amedia1" group-title="Кино" ,Амедиа 1
 udp://@239.1.41.135:1234
-#EXTINF:-1 tvg-name="KinoTV" deinterlace=6 group-title="Кино" ,Кино ТВ
+#EXTINF:-1 tvg-id="1037" tvg-logo="https://epg.one/img/1037.png" tvg-name="KinoTV" deinterlace=6 group-title="Кино" ,Кино ТВ
 udp://@224.200.202.17:1234
-#EXTINF:-1 tvg-name="MosfilmZol" group-title="Кино" ,Золотая коллекция
+#EXTINF:-1 tvg-id="3357" tvg-logo="https://epg.one/img/3357.png" tvg-name="MosfilmZol" group-title="Кино" ,Золотая коллекция
 udp://@239.1.6.136:1234
-#EXTINF:-1 tvg-name="RU_ILLusio" group-title="Кино" ,Русский Иллюзион
+#EXTINF:-1 tvg-id="53" tvg-logo="https://epg.one/img/53.png" tvg-name="RU_ILLusio" group-title="Кино" ,Русский Иллюзион
 udp://@239.1.23.244:1234
-#EXTINF:-1 tvg-name="ILLUSION+" group-title="Кино" ,Иллюзион+
+#EXTINF:-1 tvg-id="2403" tvg-logo="https://epg.one/img/2403.png" tvg-name="ILLUSION+" group-title="Кино" ,Иллюзион+
 udp://@239.1.23.241:1234
-#EXTINF:-1 tvg-name="EuroKINO" group-title="Кино" ,Еврокино
+#EXTINF:-1 tvg-id="352" tvg-logo="https://epg.one/img/352.png" tvg-name="EuroKINO" group-title="Кино" ,Еврокино
 udp://@239.1.23.237:1234
-#EXTINF:-1 tvg-name="DomKino" group-title="Кино" ,Дом кино
+#EXTINF:-1 tvg-id="834" tvg-logo="https://epg.one/img/834.png" tvg-name="DomKino" group-title="Кино" ,Дом кино
 udp://@239.1.3.161:1234
-#EXTINF:-1 tvg-name="mnogoTV" group-title="Кино" ,Киносерия
+#EXTINF:-1 tvg-id="799" tvg-logo="https://epg.one/img/799.png" tvg-name="mnogoTV" group-title="Кино" ,Киносерия
 udp://@239.1.23.219:1234
-#EXTINF:-1 tvg-name="zvezdaPlus" deinterlace=6 group-title="Кино" ,Звезда Плюс
+#EXTINF:-1 tvg-id="4661" tvg-logo="https://epg.one/img/4661.png" tvg-name="zvezdaPlus" deinterlace=6 group-title="Кино" ,Звезда Плюс
 udp://@239.1.23.231:1234
-#EXTINF:-1 tvg-name="ntv+3" group-title="Кино" ,Родное кино
+#EXTINF:-1 tvg-id="12" tvg-logo="https://epg.one/img/12.png" tvg-name="ntv+3" group-title="Кино" ,Родное кино
 udp://@239.1.23.220:1234
-#EXTINF:-1 tvg-name="Zee-TV" group-title="Кино" ,Индия
+#EXTINF:-1 tvg-id="2233" tvg-logo="https://epg.one/img/2233.png" tvg-name="Zee-TV" group-title="Кино" ,Индия
 udp://@239.1.23.225:1234
-#EXTINF:-1 tvg-name="kinouzhas" group-title="Кино" ,Киноужас
+#EXTINF:-1 tvg-id="2493" tvg-logo="https://epg.one/img/2493.png" tvg-name="kinouzhas" group-title="Кино" ,Киноужас
 udp://@239.1.23.226:1234
-#EXTINF:-1 tvg-name="Pobeda" group-title="Кино" ,Победа
+#EXTINF:-1 tvg-id="2447" tvg-logo="https://epg.one/img/2447.png" tvg-name="Pobeda" group-title="Кино" ,Победа
 udp://@239.1.3.164:1234
-#EXTINF:-1 tvg-name="Secret" group-title="Кино" ,Тайна
+#EXTINF:-1 tvg-id="2426" tvg-logo="https://epg.one/img/2426.png" tvg-name="Secret" group-title="Кино" ,Тайна
 udp://@239.1.23.182:1234
-#EXTINF:-1 tvg-name="MatchTV" deinterlace=6 group-title="Спорт" ,Матч ТВ
+#EXTINF:-1 tvg-id="2051" tvg-logo="https://epg.one/img/2051.png" tvg-name="MatchTV" deinterlace=6 group-title="Спорт" ,Матч ТВ
 udp://@239.1.35.4:1234
-#EXTINF:-1 tvg-name="Mstrana" group-title="Спорт" ,Матч! Страна
+#EXTINF:-1 tvg-id="2042" tvg-logo="https://epg.one/img/2042.png" tvg-name="Mstrana" group-title="Спорт" ,Матч! Страна
 udp://@239.1.23.208:1234
-#EXTINF:-1 tvg-name="boets" group-title="Спорт" ,Матч! Боец
+#EXTINF:-1 tvg-id="2054" tvg-logo="https://epg.one/img/2054.png" tvg-name="boets" group-title="Спорт" ,Матч! Боец
 udp://@239.1.23.214:1234
-#EXTINF:-1 tvg-name="Matcharena" deinterlace=6 group-title="Спорт" ,Матч! Арена HD
+#EXTINF:-1 tvg-id="2003" tvg-logo="https://epg.one/img/2003.png" tvg-name="Matcharena" deinterlace=6 group-title="Спорт" ,Матч! Арена HD
 udp://@239.1.23.207:1234
-#EXTINF:-1 tvg-name="BoxingTV" group-title="Спорт" ,БОКС ТВ
+#EXTINF:-1 tvg-id="2285" tvg-logo="https://epg.one/img/2285.png" tvg-name="BoxingTV" group-title="Спорт" ,БОКС ТВ
 udp://@239.1.23.192:1234
-#EXTINF:-1 tvg-name="JiVi" group-title="Спорт" ,Живи
+#EXTINF:-1 tvg-id="113" tvg-logo="https://epg.one/img/113.png" tvg-name="JiVi" group-title="Спорт" ,Живи
 udp://@239.1.6.181:1234
-#EXTINF:-1 tvg-name="Matchigra" group-title="Спорт" ,Матч! Игра
+#EXTINF:-1 tvg-id="2050" tvg-logo="https://epg.one/img/2050.png" tvg-name="Matchigra" group-title="Спорт" ,Матч! Игра
 udp://@239.1.23.205:1234
-#EXTINF:-1 tvg-name="M-1GLOBAL" group-title="Спорт" ,MMA-TV
+#EXTINF:-1 tvg-id="2326" tvg-logo="https://epg.one/img/2326.png" tvg-name="M-1GLOBAL" group-title="Спорт" ,MMA-TV
 udp://@239.1.35.178:1234
 #EXTINF:-1 tvg-name="ntv+9" group-title="Спорт" ,КХЛ
 udp://@239.1.23.209:1234
-#EXTINF:-1 tvg-name="MUZ_TVnew" group-title="Музыка" ,Муз
+#EXTINF:-1 tvg-id="897" tvg-logo="https://epg.one/img/897.png" tvg-name="MUZ_TVnew" group-title="Музыка" ,Муз
 udp://@235.60.101.29:2015
 #EXTINF:-1 tvg-name="1HD" deinterlace=6 group-title="Музыка" ,1HD
 udp://@224.200.202.101:1234
@@ -249,65 +249,65 @@ udp://@224.200.202.101:1234
 udp://@239.1.35.192:1234
 #EXTINF:-1 tvg-name="EuropaPlus" group-title="Музыка" ,ЕвропаПлюсТВ
 udp://@239.1.41.152:1234
-#EXTINF:-1 tvg-name="A-ONE" group-title="Музыка" ,FON Music
+#EXTINF:-1 tvg-id="680" tvg-logo="https://epg.one/img/680.png" tvg-name="A-ONE" group-title="Музыка" ,FON Music
 udp://@224.200.202.81:1234
 #EXTINF:-1 tvg-name="MusicBox-R" group-title="Музыка" ,RUSSIAN MUSICBOX
 udp://@239.1.23.154:1234
 #EXTINF:-1 tvg-name="La-minor" group-title="Музыка" ,Ля-минор
 udp://@239.1.23.228:1234
-#EXTINF:-1 tvg-name="Bridge-TV" group-title="Музыка" ,BRIDGE
+#EXTINF:-1 tvg-id="151" tvg-logo="https://epg.one/img/151.png" tvg-name="Bridge-TV" group-title="Музыка" ,BRIDGE
 udp://@239.1.23.140:1234
-#EXTINF:-1 tvg-name="Rusong_TV" group-title="Музыка" ,BRIDGE Русский Хит
+#EXTINF:-1 tvg-id="591" tvg-logo="https://epg.one/img/591.png" tvg-name="Rusong_TV" group-title="Музыка" ,BRIDGE Русский Хит
 udp://@239.1.23.141:1234
-#EXTINF:-1 tvg-name="DangeTV" group-title="Музыка" ,BRIDGE HITS
+#EXTINF:-1 tvg-id="2024" tvg-logo="https://epg.one/img/2024.png" tvg-name="DangeTV" group-title="Музыка" ,BRIDGE HITS
 udp://@239.1.23.138:1234
-#EXTINF:-1 tvg-name="MuZ-One" group-title="Музыка" ,Музыка Первого
+#EXTINF:-1 tvg-id="715" tvg-logo="https://epg.one/img/715.png" tvg-name="MuZ-One" group-title="Музыка" ,Музыка Первого
 udp://@239.1.34.143:1234
-#EXTINF:-1 tvg-name="TOPSONG_T" group-title="Музыка" ,BRIDGE CLASSIC
+#EXTINF:-1 tvg-id="4373" tvg-logo="https://epg.one/img/4373.png" tvg-name="TOPSONG_T" group-title="Музыка" ,BRIDGE CLASSIC
 udp://@239.1.23.139:1234
-#EXTINF:-1 tvg-name="Usadba_MTU" group-title="Наука" ,Усадьба
+#EXTINF:-1 tvg-id="434" tvg-logo="https://epg.one/img/434.png" tvg-name="Usadba_MTU" group-title="Наука" ,Усадьба
 udp://@239.1.23.245:1234
 #EXTINF:-1 tvg-name="Planeta_HD" deinterlace=6 group-title="Наука" ,Планета HD
 udp://@239.1.6.133:1234
-#EXTINF:-1 tvg-name="Vopr-Otvet" group-title="Наука" ,Вопросы и ответы
+#EXTINF:-1 tvg-id="2451" tvg-logo="https://epg.one/img/2451.png" tvg-name="Vopr-Otvet" group-title="Наука" ,Вопросы и ответы
 udp://@239.1.23.238:1234
-#EXTINF:-1 tvg-name="GivPlaneta" group-title="Наука" ,Живая планета
+#EXTINF:-1 tvg-id="2432" tvg-logo="https://epg.one/img/2432.png" tvg-name="GivPlaneta" group-title="Наука" ,Живая планета
 udp://@239.1.1.196:1234
-#EXTINF:-1 tvg-name="RTG_TV" group-title="Наука" ,RTG TV
+#EXTINF:-1 tvg-id="2280" tvg-logo="https://epg.one/img/2280.png" tvg-name="RTG_TV" group-title="Наука" ,RTG TV
 udp://@239.1.35.144:1234
-#EXTINF:-1 tvg-name="Teletravel" group-title="Наука" ,Телепутешествия
+#EXTINF:-1 tvg-id="2424" tvg-logo="https://epg.one/img/2424.png" tvg-name="Teletravel" group-title="Наука" ,Телепутешествия
 udp://@239.1.23.151:1234
-#EXTINF:-1 tvg-name="Nauka_2.0" group-title="Наука" ,Наука
+#EXTINF:-1 tvg-id="723" tvg-logo="https://epg.one/img/723.png" tvg-name="Nauka_2.0" group-title="Наука" ,Наука
 udp://@239.1.6.161:1234
-#EXTINF:-1 tvg-name="NANO_TV" deinterlace=6 group-title="Наука" ,Нано
+#EXTINF:-1 tvg-id="2521" tvg-logo="https://epg.one/img/2521.png" tvg-name="NANO_TV" deinterlace=6 group-title="Наука" ,Нано
 udp://@239.1.23.252:1234
-#EXTINF:-1 tvg-name="Zoopark" group-title="Наука" ,Зоопарк
+#EXTINF:-1 tvg-id="367" tvg-logo="https://epg.one/img/367.png" tvg-name="Zoopark" group-title="Наука" ,Зоопарк
 udp://@239.1.23.240:1234
 #EXTINF:-1 tvg-name="Tehno24" group-title="Наука" ,Техно 24
 udp://@239.1.1.200:1234
-#EXTINF:-1 tvg-name="360d" group-title="Бизнес" ,360.ru
+#EXTINF:-1 tvg-id="2265" tvg-logo="https://epg.one/img/2265.png" tvg-name="360d" group-title="Бизнес" ,360.ru
 udp://@239.1.23.147:1234
-#EXTINF:-1 tvg-name="SovetFeder" group-title="Бизнес" ,Вместе РФ
+#EXTINF:-1 tvg-id="2398" tvg-logo="https://epg.one/img/2398.png" tvg-name="SovetFeder" group-title="Бизнес" ,Вместе РФ
 udp://@239.1.34.142:1234
-#EXTINF:-1 tvg-name="RBK" deinterlace=6 group-title="Бизнес" ,РБК
+#EXTINF:-1 tvg-id="743" tvg-logo="https://epg.one/img/743.png" tvg-name="RBK" deinterlace=6 group-title="Бизнес" ,РБК
 udp://@239.1.23.148:1234
-#EXTINF:-1 tvg-name="KUL" group-title="Культура" ,Россия К
+#EXTINF:-1 tvg-id="187" tvg-logo="https://epg.one/img/187.png" tvg-name="KUL" group-title="Культура" ,Россия К
 udp://@235.60.101.15:2015
-#EXTINF:-1 tvg-name="SPAS" group-title="Культура" ,Спас
+#EXTINF:-1 tvg-id="2141" tvg-logo="https://epg.one/img/2141.png" tvg-name="SPAS" group-title="Культура" ,Спас
 udp://@235.60.101.21:2015
-#EXTINF:-1 tvg-name="" group-title="Культура" ,Надежда
+#EXTINF:-1 tvg-id="1732" tvg-logo="https://epg.one/img/1732.png" tvg-name="" group-title="Культура" ,Надежда
 udp://@239.1.23.222:1234
 #EXTINF:-1 tvg-name="TBN" group-title="Культура" ,ТБН
 udp://@239.1.23.149:1234
-#EXTINF:-1 tvg-name="Sojuz" group-title="Культура" ,Союз
+#EXTINF:-1 tvg-id="2448" tvg-logo="https://epg.one/img/2448.png" tvg-name="Sojuz" group-title="Культура" ,Союз
 udp://@224.200.202.126:1234
 #EXTINF:-1 tvg-name="RuHistory" group-title="Культура" ,Русская История
 udp://@239.1.23.255:1234
-#EXTINF:-1 tvg-name="Istoria" group-title="Культура" ,История
+#EXTINF:-1 tvg-id="1036" tvg-logo="https://epg.one/img/1036.png" tvg-name="Istoria" group-title="Культура" ,История
 udp://@239.1.1.191:1234
-#EXTINF:-1 tvg-name="KrasLin" group-title="Культура" ,Красная Линия
+#EXTINF:-1 tvg-id="2476" tvg-logo="https://epg.one/img/2476.png" tvg-name="KrasLin" group-title="Культура" ,Красная Линия
 udp://@239.1.34.193:1234
-#EXTINF:-1 tvg-name="Nostalgi" group-title="Культура" ,Ностальгия
+#EXTINF:-1 tvg-id="783" tvg-logo="https://epg.one/img/783.png" tvg-name="Nostalgi" group-title="Культура" ,Ностальгия
 udp://@239.1.23.218:1234
-#EXTINF:-1 tvg-name="Who_is_who" group-title="Культура" ,Кто есть кто
+#EXTINF:-1 tvg-id="2456" tvg-logo="https://epg.one/img/2456.png" tvg-name="Who_is_who" group-title="Культура" ,Кто есть кто
 udp://@239.1.23.223:1234
