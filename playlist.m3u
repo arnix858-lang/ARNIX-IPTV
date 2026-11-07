@@ -203,7 +203,7 @@ udp://@224.200.202.17:1234
 udp://@239.1.6.136:1234
 #EXTINF:-1 tvg-id="russky-illuzion" tvg-logo="https://iptvx.one/picons/russky-illuzion.png" tvg-name="RU_ILLusio" group-title="Кино" ,Русский Иллюзион
 udp://@239.1.23.244:1234
-#EXTINF:-1 tvg-name="ILLUSION+" group-title="Кино" ,Иллюзион+
+#EXTINF:-1 tvg-id="illuzion-plus" tvg-logo="https://iptvx.one/picons/illuzion-plus.png" tvg-name="ILLUSION+" group-title="Кино" ,Иллюзион+
 udp://@239.1.23.241:1234
 #EXTINF:-1 tvg-id="evrokino" tvg-logo="https://iptvx.one/picons/evrokino.png" tvg-name="EuroKINO" group-title="Кино" ,Еврокино
 udp://@239.1.23.237:1234
@@ -211,7 +211,7 @@ udp://@239.1.23.237:1234
 udp://@239.1.3.161:1234
 #EXTINF:-1 tvg-id="kinoseria" tvg-logo="https://iptvx.one/picons/kinoseria.png" tvg-name="mnogoTV" group-title="Кино" ,Киносерия
 udp://@239.1.23.219:1234
-#EXTINF:-1 tvg-name="zvezdaPlus" deinterlace=6 group-title="Кино" ,Звезда Плюс
+#EXTINF:-1 tvg-id="zvezda-plus" tvg-logo="https://iptvx.one/picons/zvezda-plus.png" tvg-name="zvezdaPlus" deinterlace=6 group-title="Кино" ,Звезда Плюс
 udp://@239.1.23.231:1234
 #EXTINF:-1 tvg-name="ntv+3" group-title="Кино" ,Родное кино
 udp://@239.1.23.220:1234
@@ -239,7 +239,7 @@ udp://@239.1.6.181:1234
 udp://@239.1.23.205:1234
 #EXTINF:-1 tvg-name="M-1GLOBAL" group-title="Спорт" ,MMA-TV
 udp://@239.1.35.178:1234
-#EXTINF:-1 tvg-name="ntv+9" group-title="Спорт" ,КХЛ
+#EXTINF:-1 tvg-id="kxl" tvg-logo="https://iptvx.one/picons/kxl.png" tvg-name="ntv+9" group-title="Спорт" ,КХЛ
 udp://@239.1.23.209:1234
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epg.iptvx.one/picons/muztv.png" tvg-name="MUZ_TVnew" group-title="Музыка" ,Муз
 udp://@235.60.101.29:2015
@@ -265,15 +265,15 @@ udp://@239.1.23.138:1234
 udp://@239.1.34.143:1234
 #EXTINF:-1 tvg-name="TOPSONG_T" group-title="Музыка" ,BRIDGE CLASSIC
 udp://@239.1.23.139:1234
-#EXTINF:-1 tvg-name="Usadba_MTU" group-title="Наука" ,Усадьба
+#EXTINF:-1 tvg-id="usadba" tvg-logo="https://iptvx.one/picons/usadba.png" tvg-name="Usadba_MTU" group-title="Наука" ,Усадьба
 udp://@239.1.23.245:1234
 #EXTINF:-1 tvg-name="Planeta_HD" deinterlace=6 group-title="Наука" ,Планета HD
 udp://@239.1.6.133:1234
 #EXTINF:-1 tvg-name="Vopr-Otvet" group-title="Наука" ,Вопросы и ответы
 udp://@239.1.23.238:1234
-#EXTINF:-1 tvg-name="GivPlaneta" group-title="Наука" ,Живая планета
+#EXTINF:-1 tvg-id="zhivaya-planeta" tvg-logo="https://iptvx.one/picons/zhivaya-planeta.png" tvg-name="GivPlaneta" group-title="Наука" ,Живая планета
 udp://@239.1.1.196:1234
-#EXTINF:-1 tvg-name="RTG_TV" group-title="Наука" ,RTG TV
+#EXTINF:-1 tvg-id="rtg-tv" tvg-logo="https://iptvx.one/picons/rtg-tv.png" tvg-name="RTG_TV" group-title="Наука" ,RTG TV
 udp://@239.1.35.144:1234
 #EXTINF:-1 tvg-id="teleputeshestvia" tvg-logo="https://iptvx.one/picons/teleputeshestvia.png" tvg-name="Teletravel" group-title="Наука" ,Телепутешествия
 udp://@239.1.23.151:1234
@@ -285,7 +285,7 @@ udp://@239.1.23.252:1234
 udp://@239.1.23.240:1234
 #EXTINF:-1 tvg-id="texno-24" tvg-logo="https://epg.iptvx.one/picons/texno-24.png" tvg-name="Tehno24" group-title="Наука" ,Техно 24
 udp://@239.1.1.200:1234
-#EXTINF:-1 tvg-name="360d" group-title="Бизнес" ,360.ru
+#EXTINF:-1 tvg-id="360.ru" tvg-logo="https://iptvx.one/picons/360.ru.png" tvg-name="360d" group-title="Бизнес" ,360.ru
 udp://@239.1.23.147:1234
 #EXTINF:-1 tvg-id="vmeste-rf" tvg-logo="https://iptvx.one/picons/vmeste-rf.png" tvg-name="SovetFeder" group-title="Бизнес" ,Вместе РФ
 udp://@239.1.34.142:1234
