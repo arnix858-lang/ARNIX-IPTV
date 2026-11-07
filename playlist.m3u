@@ -17,7 +17,7 @@ udp://@235.60.101.19:2015
 udp://@235.60.101.27:2015
 #EXTINF:-1 tvg-name="1Pskov" deinterlace=6 group-title="Информационный" ,Первый Псковский
 udp://@235.60.9.1:2015
-#EXTINF:-1 tvg-name="Izvestiy" group-title="Информационный" ,Известия
+#EXTINF:-1 tvg-id="izvestia" tvg-logo="https://iptvx.one/picons/izvestia.png" tvg-name="Izvestiy" group-title="Информационный" ,Известия
 udp://@239.1.34.150:1234
 #EXTINF:-1 tvg-name="8_KANAL" group-title="Информационный" ,8 канал
 udp://@239.1.35.140:1234
@@ -29,11 +29,11 @@ udp://@239.1.35.154:1234
 udp://@239.1.6.180:1234
 #EXTINF:-1 tvg-name="RT_DocHD" deinterlace=6 group-title="Информационный" ,Russia Today DOC HD
 udp://@239.1.23.136:1234
-#EXTINF:-1 tvg-name="Belarus-TV" group-title="Информационный" ,Беларусь 24
+#EXTINF:-1 tvg-id="belarus24" tvg-logo="https://iptvx.one/picons/belarus24.png" tvg-name="Belarus-TV" group-title="Информационный" ,Беларусь 24
 udp://@239.1.1.192:1234
 #EXTINF:-1 tvg-name="Vremya" group-title="Информационный" ,Время
 udp://@239.1.34.146:1234
-#EXTINF:-1 tvg-name="HD-Life" group-title="Информационный" ,Точка.РФ
+#EXTINF:-1 tvg-id="hd-life" tvg-logo="https://iptvx.one/picons/hd-life.png" tvg-name="HD-Life" group-title="Информационный" ,Точка.РФ
 udp://@239.1.23.230:1234
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://epg.iptvx.one/picons/rentv.png" tvg-name="RenTV_REG" group-title="Развлечения" ,Рен ТВ
 udp://@235.60.101.20:2015
@@ -65,7 +65,7 @@ udp://@239.1.1.193:1234
 udp://@239.1.23.236:1234
 #EXTINF:-1 tvg-name="Ha&Fi_MTU" group-title="Развлечения" ,Охота и рыбалка
 udp://@239.1.23.242:1234
-#EXTINF:-1 tvg-name="Kuhna" deinterlace=6 group-title="Развлечения" ,Кухня ТВ
+#EXTINF:-1 tvg-id="kuxnia-tv" tvg-logo="https://iptvx.one/picons/kuxnia-tv.png" tvg-name="Kuhna" deinterlace=6 group-title="Развлечения" ,Кухня ТВ
 udp://@239.1.23.213:1234
 #EXTINF:-1 tvg-name="autoplus" deinterlace=6 group-title="Развлечения" ,Авто Плюс
 udp://@239.1.23.211:1234
@@ -81,7 +81,7 @@ udp://@239.1.35.141:1234
 udp://@239.1.35.155:1234
 #EXTINF:-1 tvg-name="Poehali" group-title="Развлечения" ,Поехали!
 udp://@239.1.34.144:1234
-#EXTINF:-1 tvg-name="LapkiLive" group-title="Развлечения" ,Лапки LIVE
+#EXTINF:-1 tvg-id="lapki-live" tvg-logo="https://iptvx.one/picons/lapki-live.png" tvg-name="LapkiLive" group-title="Развлечения" ,Лапки LIVE
 udp://@239.1.34.147:1234
 #EXTINF:-1 tvg-name="TONUS-TV" group-title="Развлечения" ,Тонус
 udp://@239.1.41.161:1234
@@ -95,7 +95,7 @@ udp://@224.200.202.220:1234
 udp://@239.1.41.160:1234
 #EXTINF:-1 tvg-name="WM" group-title="Развлечения" ,Женский Журнал
 udp://@239.1.41.148:1234
-#EXTINF:-1 tvg-name="Bulvar" group-title="Развлечения" ,Жара
+#EXTINF:-1 tvg-id="zhara" tvg-logo="https://iptvx.one/picons/zhara.png" tvg-name="Bulvar" group-title="Развлечения" ,Жара
 udp://@239.1.35.153:1234
 #EXTINF:-1 tvg-name="Mi" group-title="Развлечения" ,Мы
 udp://@239.1.35.189:1234
@@ -125,7 +125,7 @@ udp://@239.1.41.180:1234
 udp://@239.1.3.147:1234
 #EXTINF:-1 tvg-name="tiptop" deinterlace=6 group-title="Детское" ,ТипТоп HD
 udp://@239.1.35.149:1234
-#EXTINF:-1 tvg-name="ntv+39+8" group-title="Детское" ,Детский мир
+#EXTINF:-1 tvg-id="detsky-mir" tvg-logo="https://iptvx.one/picons/detsky-mir.png" tvg-name="ntv+39+8" group-title="Детское" ,Детский мир
 udp://@239.1.35.143:1234
 #EXTINF:-1 tvg-name="Mother&Chi" group-title="Детское" ,Мама
 udp://@239.1.1.199:1234
@@ -219,23 +219,23 @@ udp://@239.1.23.220:1234
 udp://@239.1.23.225:1234
 #EXTINF:-1 tvg-id="kinouzhas" tvg-logo="https://iptvx.one/picons/kinouzhas.png" tvg-name="kinouzhas" group-title="Кино" ,Киноужас
 udp://@239.1.23.226:1234
-#EXTINF:-1 tvg-name="Pobeda" group-title="Кино" ,Победа
+#EXTINF:-1 tvg-id="pobeda" tvg-logo="https://iptvx.one/picons/pobeda.png" tvg-name="Pobeda" group-title="Кино" ,Победа
 udp://@239.1.3.164:1234
 #EXTINF:-1 tvg-name="Secret" group-title="Кино" ,Тайна
 udp://@239.1.23.182:1234
 #EXTINF:-1 tvg-id="match-tv" tvg-logo="https://epg.iptvx.one/picons/match-tv.png" tvg-name="MatchTV" deinterlace=6 group-title="Спорт" ,Матч ТВ
 udp://@239.1.35.4:1234
-#EXTINF:-1 tvg-name="Mstrana" group-title="Спорт" ,Матч! Страна
+#EXTINF:-1 tvg-id="match-nash-sport" tvg-logo="https://iptvx.one/picons/match-nash-sport.png" tvg-name="Mstrana" group-title="Спорт" ,Матч! Страна
 udp://@239.1.23.208:1234
-#EXTINF:-1 tvg-name="boets" group-title="Спорт" ,Матч! Боец
+#EXTINF:-1 tvg-id="match-boets" tvg-logo="https://iptvx.one/picons/match-boets.png" tvg-name="boets" group-title="Спорт" ,Матч! Боец
 udp://@239.1.23.214:1234
-#EXTINF:-1 tvg-name="Matcharena" deinterlace=6 group-title="Спорт" ,Матч! Арена HD
+#EXTINF:-1 tvg-id="match-arena" tvg-logo="https://iptvx.one/picons/match-arena.png" tvg-name="Matcharena" deinterlace=6 group-title="Спорт" ,Матч! Арена HD
 udp://@239.1.23.207:1234
 #EXTINF:-1 tvg-name="BoxingTV" group-title="Спорт" ,БОКС ТВ
 udp://@239.1.23.192:1234
 #EXTINF:-1 tvg-name="JiVi" group-title="Спорт" ,Живи
 udp://@239.1.6.181:1234
-#EXTINF:-1 tvg-name="Matchigra" group-title="Спорт" ,Матч! Игра
+#EXTINF:-1 tvg-id="match-igra" tvg-logo="https://iptvx.one/picons/match-igra.png" tvg-name="Matchigra" group-title="Спорт" ,Матч! Игра
 udp://@239.1.23.205:1234
 #EXTINF:-1 tvg-name="M-1GLOBAL" group-title="Спорт" ,MMA-TV
 udp://@239.1.35.178:1234
@@ -275,7 +275,7 @@ udp://@239.1.23.238:1234
 udp://@239.1.1.196:1234
 #EXTINF:-1 tvg-name="RTG_TV" group-title="Наука" ,RTG TV
 udp://@239.1.35.144:1234
-#EXTINF:-1 tvg-name="Teletravel" group-title="Наука" ,Телепутешествия
+#EXTINF:-1 tvg-id="teleputeshestvia" tvg-logo="https://iptvx.one/picons/teleputeshestvia.png" tvg-name="Teletravel" group-title="Наука" ,Телепутешествия
 udp://@239.1.23.151:1234
 #EXTINF:-1 tvg-name="Nauka_2.0" group-title="Наука" ,Наука
 udp://@239.1.6.161:1234
@@ -287,7 +287,7 @@ udp://@239.1.23.240:1234
 udp://@239.1.1.200:1234
 #EXTINF:-1 tvg-name="360d" group-title="Бизнес" ,360.ru
 udp://@239.1.23.147:1234
-#EXTINF:-1 tvg-name="SovetFeder" group-title="Бизнес" ,Вместе РФ
+#EXTINF:-1 tvg-id="vmeste-rf" tvg-logo="https://iptvx.one/picons/vmeste-rf.png" tvg-name="SovetFeder" group-title="Бизнес" ,Вместе РФ
 udp://@239.1.34.142:1234
 #EXTINF:-1 tvg-name="RBK" deinterlace=6 group-title="Бизнес" ,РБК
 udp://@239.1.23.148:1234
@@ -297,13 +297,13 @@ udp://@235.60.101.15:2015
 udp://@235.60.101.21:2015
 #EXTINF:-1 tvg-name="" group-title="Культура" ,Надежда
 udp://@239.1.23.222:1234
-#EXTINF:-1 tvg-name="TBN" group-title="Культура" ,ТБН
+#EXTINF:-1 tvg-id="tbn-ru" tvg-logo="https://iptvx.one/picons/tbn-ru.png" tvg-name="TBN" group-title="Культура" ,ТБН
 udp://@239.1.23.149:1234
 #EXTINF:-1 tvg-name="Sojuz" group-title="Культура" ,Союз
 udp://@224.200.202.126:1234
 #EXTINF:-1 tvg-name="RuHistory" group-title="Культура" ,Русская История
 udp://@239.1.23.255:1234
-#EXTINF:-1 tvg-name="Istoria" group-title="Культура" ,История
+#EXTINF:-1 tvg-id="history" tvg-logo="https://iptvx.one/picons/history.png" tvg-name="Istoria" group-title="Культура" ,История
 udp://@239.1.1.191:1234
 #EXTINF:-1 tvg-name="KrasLin" group-title="Культура" ,Красная Линия
 udp://@239.1.34.193:1234
