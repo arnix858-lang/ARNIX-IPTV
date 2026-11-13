@@ -3,3 +3,5 @@
 https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Russia1" tvg-name="Россия 1" group-title="Федеральные",Россия 1
 https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="NTV" tvg-name="НТВ" group-title="Федеральные",НТВ
+https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
