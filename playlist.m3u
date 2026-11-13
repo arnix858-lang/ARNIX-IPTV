@@ -4,7 +4,7 @@ https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="rossia1" tvg-logo="https://epg.iptvx.one/picons/rossia1.png" tvg-name="RTR_REG" deinterlace=6 group-title="Информационный" ,Россия 1
 https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://epg.iptvx.one/picons/ntv.png" tvg-name="NTV" group-title="Информационный" ,НТВ
-udp://@235.60.101.13:2015
+https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://epg.iptvx.one/picons/5kanal-ru.png" tvg-name="Piter5_RUS" group-title="Информационный" ,Пятый канал
 udp://@235.60.101.14:2015
 #EXTINF:-1 tvg-id="rossia-24" tvg-logo="https://epg.iptvx.one/picons/rossia-24.png" tvg-name="Ves24" group-title="Информационный" ,Россия 24
