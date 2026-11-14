@@ -1,5 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ChannelOne" tvg-name="Первый канал" group-title="Федеральные",Первый канал
-https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Russia1" tvg-name="Россия 1" group-title="Федеральные",Россия 1
-https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Первый канал" group-title="Россия",Первый канал
+https://server.musical.uz/tv/1tv/index.m3u8?token=83bdc675557eb00fb2941600f2d91101d5ce6281-c842b933a3c87db8d911110c496b6af0-1794628450-1794617650&remote=74.249.15.180
